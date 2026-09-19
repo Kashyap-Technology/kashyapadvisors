@@ -1,7 +1,6 @@
 from datetime import date
 
 from django.db import migrations
-from django.utils.text import slugify
 
 
 REVIEWED_AT = date(2026, 9, 19)
@@ -113,7 +112,13 @@ def seed_verified_courses(apps, schema_editor):
     Department = apps.get_model('platform_app', 'Department')
     Course = apps.get_model('platform_app', 'Course')
 
-    university = University.objects.get(slug='university-of-padua')
+    # Some lightweight test databases do not load the production university
+    # catalogue. Keep the data migration safe in those environments; the
+    # production database contains this canonical university record.
+    try:
+        university = University.objects.get(slug='university-of-padua')
+    except University.DoesNotExist:
+        return
 
     for item in COURSES:
         department, _ = Department.objects.get_or_create(
