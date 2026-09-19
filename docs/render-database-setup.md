@@ -5,10 +5,11 @@ Run these commands from the backend service directory after the service is conne
 ```bash
 python manage.py migrate
 python manage.py seed_content
+python manage.py import_verified_courses
 python manage.py createsuperuser
 ```
 
-`seed_content` is safe to run again. It creates the regions, universities, pages, articles, FAQs, settings and verified University of Padua courses used by the local database. Existing admin edits are preserved.
+`seed_content` is safe to run again. It creates the regions, universities, pages, articles, FAQs, settings and verified University of Padua courses used by the local database. `import_verified_courses` bulk-loads the source-audited Italy catalogue from `platform_app/data/italy_courses.json`; it publishes only records marked verified and leaves pending rows unpublished. Existing admin edits are preserved by the initial import workflow.
 
 For a Render web service, use a release/start command that runs migrations and seeding before Gunicorn starts, for example:
 
