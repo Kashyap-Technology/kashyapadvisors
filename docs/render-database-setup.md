@@ -23,3 +23,19 @@ python manage.py migrate && python manage.py seed_content && gunicorn config.wsg
 ```
 
 Create the first admin account interactively with `createsuperuser`. Use a strong unique password; do not commit credentials or put them in frontend environment variables. Then open `/admin/` on the backend domain.
+
+For a non-interactive Render shell, add these three environment variables temporarily:
+
+```text
+DJANGO_SUPERUSER_USERNAME=your-admin-username
+DJANGO_SUPERUSER_EMAIL=you@example.com
+DJANGO_SUPERUSER_PASSWORD=<strong-unique-password>
+```
+
+Then run:
+
+```bash
+python manage.py provision_admin
+```
+
+Remove the password variable from Render after the command succeeds. To intentionally reset an existing account, run `python manage.py provision_admin --reset-password`.
