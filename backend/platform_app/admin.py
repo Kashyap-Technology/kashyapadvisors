@@ -57,13 +57,18 @@ class AdmissionCallInline(admin.StackedInline):
     form=AdmissionCallForm
     extra=0
 
+class CourseFieldValueInline(admin.StackedInline):
+    model=m.CourseFieldValue
+    extra=0
+    fields=('label','value','presentation','order','active','source_url','link_label')
+
 @admin.register(m.Course)
 class CourseAdmin(ContentAdmin):
     form=CourseAdminForm
     list_display=('title','university','department','degree','published')
     list_filter=('published','university','department','degree')
     search_fields=('title','summary','university__title','department__title')
-    inlines=[AdmissionCallInline]
+    inlines=[CourseFieldValueInline,AdmissionCallInline]
     fieldsets=(
         ('Course identity',{'fields':('title','slug','university','department','summary','degree','discipline','degree_class_code')}),
         ('Programme details',{'fields':('study_location','course_type','nominal_duration','study_language','studies_commence')}),
