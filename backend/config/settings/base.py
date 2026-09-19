@@ -1,11 +1,13 @@
 from pathlib import Path
+from urllib.parse import urlsplit
 import environ
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 env = environ.Env(DEBUG=(bool, False))
 environ.Env.read_env(BASE_DIR.parent / '.env')
 DEBUG = env('DEBUG')
 SECRET_KEY = env('DJANGO_SECRET_KEY')
-ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['localhost', '127.0.0.1'])
+_configured_hosts = env.list('DJANGO_ALLOWED_HOSTS', default=['localhost', '127.0.0.1'])
+ALLOWED_HOSTS = [urlsplit(host).hostname or host.strip('/') for host in _configured_hosts]
 PUBLIC_SITE_URL = env('PUBLIC_SITE_URL', default='https://kashyapadvisors.com')
 INSTALLED_APPS = ['django.contrib.admin','django.contrib.auth','django.contrib.contenttypes','django.contrib.sessions','django.contrib.messages','django.contrib.staticfiles','rest_framework','platform_app']
 MIDDLEWARE = ['django.middleware.security.SecurityMiddleware','whitenoise.middleware.WhiteNoiseMiddleware','config.cors.CorsMiddleware','django.contrib.sessions.middleware.SessionMiddleware','django.middleware.common.CommonMiddleware','django.middleware.csrf.CsrfViewMiddleware','django.contrib.auth.middleware.AuthenticationMiddleware','django.contrib.messages.middleware.MessageMiddleware','django.middleware.clickjacking.XFrameOptionsMiddleware']
@@ -36,5 +38,6 @@ EMAIL_USE_TLS = env.bool('EMAIL_USE_TLS',default=True)
 DEFAULT_FROM_EMAIL = env('DEFAULT_FROM_EMAIL',default='website@kashyapadvisors.com')
 NOTIFICATION_EMAIL = env('NOTIFICATION_EMAIL',default='')
 CSRF_TRUSTED_ORIGINS = env.list('CSRF_TRUSTED_ORIGINS',default=['http://localhost:5173','http://127.0.0.1:5173'])
+CORS_ALLOWED_ORIGINS = env.list('CORS_ALLOWED_ORIGINS',default=['http://localhost:5173','http://127.0.0.1:5173'])
 DATA_UPLOAD_MAX_MEMORY_SIZE = 6 * 1024 * 1024
 FILE_UPLOAD_MAX_MEMORY_SIZE = 5 * 1024 * 1024

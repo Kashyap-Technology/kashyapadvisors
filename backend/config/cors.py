@@ -10,7 +10,7 @@ class CorsMiddleware:
     def __call__(self, request):
         response = self.get_response(request)
         origin = request.headers.get('Origin')
-        allowed = getattr(settings, 'CSRF_TRUSTED_ORIGINS', [])
+        allowed = getattr(settings, 'CORS_ALLOWED_ORIGINS', [])
         if origin in allowed:
             response['Access-Control-Allow-Origin'] = origin
             response['Access-Control-Allow-Credentials'] = 'true'
