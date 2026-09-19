@@ -14,7 +14,6 @@ import {MotionShell} from './motion';
 import {TestGuide} from './test-guide';
 import {CourseInformation,UniversityDepartments} from './course-details';
 import type {Data,Entry,University,Region,Article,Career,Section,OfficialUpdate} from './api';
-import './styles.css';
 const DataContext=createContext<Data>(null!);
 const useData=()=>useContext(DataContext);
 const nav=[['Home','/'],['Study in Italy','/study-in-italy'],['Universities','/universities'],['Services','/services'],['Test Preparation','/test-preparation'],['Student Journey','/student-journey'],['Blog','/blog'],['About','/about'],['Contact','/contact']];
