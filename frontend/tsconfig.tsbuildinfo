@@ -1,1 +1,1 @@
-{"root":["./src/api.ts","./src/course-details.test.tsx","./src/course-details.tsx","./src/main.tsx","./src/motion.tsx","./src/test-guide.tsx"],"version":"5.9.3"}
+{"root":["./src/api.ts","./src/course-details.test.tsx","./src/course-details.tsx","./src/main.tsx","./src/motion.tsx","./src/test-guide.tsx","./src/vite-env.d.ts"],"version":"5.9.3"}
