@@ -9,7 +9,7 @@ SECRET_KEY = env('DJANGO_SECRET_KEY')
 _configured_hosts = env.list('DJANGO_ALLOWED_HOSTS', default=['localhost', '127.0.0.1'])
 ALLOWED_HOSTS = [urlsplit(host).hostname or host.strip('/') for host in _configured_hosts]
 PUBLIC_SITE_URL = env('PUBLIC_SITE_URL', default='https://kashyapadvisors.com')
-INSTALLED_APPS = ['django.contrib.admin','django.contrib.auth','django.contrib.contenttypes','django.contrib.sessions','django.contrib.messages','django.contrib.staticfiles','rest_framework','platform_app']
+INSTALLED_APPS = ['django.contrib.admin','django.contrib.auth','django.contrib.contenttypes','django.contrib.sessions','django.contrib.messages','django.contrib.staticfiles','rest_framework','rest_framework.authtoken','platform_app']
 MIDDLEWARE = ['django.middleware.security.SecurityMiddleware','whitenoise.middleware.WhiteNoiseMiddleware','config.cors.CorsMiddleware','django.contrib.sessions.middleware.SessionMiddleware','django.middleware.common.CommonMiddleware','django.middleware.csrf.CsrfViewMiddleware','django.contrib.auth.middleware.AuthenticationMiddleware','django.contrib.messages.middleware.MessageMiddleware','django.middleware.clickjacking.XFrameOptionsMiddleware']
 ROOT_URLCONF = 'config.urls'
 TEMPLATES = [{'BACKEND':'django.template.backends.django.DjangoTemplates','DIRS':[BASE_DIR / 'templates'],'APP_DIRS':True,'OPTIONS':{'context_processors':['django.template.context_processors.request','django.contrib.auth.context_processors.auth','django.contrib.messages.context_processors.messages']}}]
@@ -26,9 +26,14 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STORAGES = {'default':{'BACKEND':'django.core.files.storage.FileSystemStorage'},'staticfiles':{'BACKEND':'whitenoise.storage.CompressedManifestStaticFilesStorage'}}
-if env.bool('USE_STORJ',default=False):
-    STORAGES['default'] = {'BACKEND':'storages.backends.s3.S3Storage','OPTIONS':{'access_key':env('STORJ_ACCESS_KEY'),'secret_key':env('STORJ_SECRET_KEY'),'bucket_name':env('STORJ_BUCKET'),'endpoint_url':env('STORJ_ENDPOINT',default='https://gateway.storjshare.io'),'region_name':'us-east-1','default_acl':None,'querystring_auth':True,'file_overwrite':False}}
-REST_FRAMEWORK = {'DEFAULT_PERMISSION_CLASSES':['rest_framework.permissions.AllowAny'],'DEFAULT_THROTTLE_CLASSES':['rest_framework.throttling.AnonRateThrottle'],'DEFAULT_THROTTLE_RATES':{'anon':'120/minute','submissions':'10/hour'},'DEFAULT_RENDERER_CLASSES':['rest_framework.renderers.JSONRenderer']}
+USE_STORJ = env.bool('USE_STORJ',default=False)
+STORJ_ACCESS_KEY = env('STORJ_ACCESS_KEY',default='')
+STORJ_SECRET_KEY = env('STORJ_SECRET_KEY',default='')
+STORJ_BUCKET = env('STORJ_BUCKET',default='')
+STORJ_ENDPOINT = env('STORJ_ENDPOINT',default='https://gateway.storjshare.io')
+if USE_STORJ:
+    STORAGES['default'] = {'BACKEND':'storages.backends.s3.S3Storage','OPTIONS':{'access_key':STORJ_ACCESS_KEY,'secret_key':STORJ_SECRET_KEY,'bucket_name':STORJ_BUCKET,'endpoint_url':STORJ_ENDPOINT,'region_name':'us-east-1','default_acl':None,'querystring_auth':True,'file_overwrite':False}}
+REST_FRAMEWORK = {'DEFAULT_PERMISSION_CLASSES':['rest_framework.permissions.AllowAny'],'DEFAULT_AUTHENTICATION_CLASSES':['rest_framework.authentication.TokenAuthentication'],'DEFAULT_THROTTLE_CLASSES':['rest_framework.throttling.AnonRateThrottle'],'DEFAULT_THROTTLE_RATES':{'anon':'120/minute','submissions':'10/hour','student_auth':'8/hour'},'DEFAULT_RENDERER_CLASSES':['rest_framework.renderers.JSONRenderer']}
 EMAIL_BACKEND = env('EMAIL_BACKEND',default='django.core.mail.backends.console.EmailBackend')
 EMAIL_HOST = env('EMAIL_HOST',default='localhost')
 EMAIL_PORT = env.int('EMAIL_PORT',default=587)
@@ -37,6 +42,8 @@ EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD',default='')
 EMAIL_USE_TLS = env.bool('EMAIL_USE_TLS',default=True)
 DEFAULT_FROM_EMAIL = env('DEFAULT_FROM_EMAIL',default='website@kashyapadvisors.com')
 NOTIFICATION_EMAIL = env('NOTIFICATION_EMAIL',default='')
+OPENAI_API_KEY = env('OPENAI_API_KEY',default='')
+OPENAI_MODEL = env('OPENAI_MODEL',default='gpt-5')
 CSRF_TRUSTED_ORIGINS = env.list('CSRF_TRUSTED_ORIGINS',default=['http://localhost:5173','http://127.0.0.1:5173'])
 CORS_ALLOWED_ORIGINS = env.list('CORS_ALLOWED_ORIGINS',default=['http://localhost:5173','http://127.0.0.1:5173'])
 DATA_UPLOAD_MAX_MEMORY_SIZE = 6 * 1024 * 1024

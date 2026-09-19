@@ -1,0 +1,15 @@
+{
+  "CORSRules": [
+    {
+      "AllowedOrigins": [
+        "http://localhost:5173",
+        "https://kashyapadvisors.com",
+        "https://www.kashyapadvisors.com"
+      ],
+      "AllowedMethods": ["PUT", "GET", "HEAD"],
+      "AllowedHeaders": ["*"],
+      "ExposeHeaders": ["ETag", "Content-Length"],
+      "MaxAgeSeconds": 900
+    }
+  ]
+}
