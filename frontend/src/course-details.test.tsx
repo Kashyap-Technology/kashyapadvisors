@@ -1,6 +1,6 @@
 import {describe,it,expect} from 'vitest';
 import {renderToStaticMarkup} from 'react-dom/server';
-import {CourseInformation,formatCourseDate,formatCourseDeadline} from './course-details';
+import {CourseInformation,formatCourseDate,formatCourseDeadline,parseCourseNotes} from './course-details';
 import type {Course} from './api';
 
 describe('course details',()=>{
@@ -19,5 +19,16 @@ describe('course details',()=>{
     for(const text of ['3 years (180 ECTS)','Entry qualification','7 Mar 2027, 23:59:59','Europe/Rome · CET','1 Oct 2027','NON-EU applicants','EU and equated call','Call for admission'])expect(html).toContain(text);
     expect(html).toContain('&lt;script&gt;');
     expect(html).not.toContain('<script>');
+  });
+
+  it('organises pipe-separated programme notes, official links and contacts',()=>{
+    const notes=parseCourseNotes('Programme is delivered entirely in English. | Programme Regulations: https://example.com/regulations | Contacts: Programme Coordinator: Prof. Example (coordinator@example.com) Programme Secretary: Prof. Sample (secretary@example.com) | School: School of Engineering');
+    expect(notes.notes[0]).toMatchObject({label:'Teaching language'});
+    expect(notes.links).toEqual([{label:'Programme Regulations',url:'https://example.com/regulations'}]);
+    expect(notes.contacts).toEqual([
+      {label:'Programme Coordinator: Prof. Example',email:'coordinator@example.com'},
+      {label:'Programme Secretary: Prof. Sample',email:'secretary@example.com'}
+    ]);
+    expect(notes.context).toEqual(['School: School of Engineering']);
   });
 });

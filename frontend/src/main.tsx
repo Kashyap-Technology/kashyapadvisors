@@ -14,7 +14,7 @@ import {ArrowUpRight,ArrowRight,MapPin,Phone,Mail,Search,Menu,X,GraduationCap,Gl
 import {request,imageOf,safeUrl} from './api';
 import {MotionShell} from './motion';
 import {TestGuide} from './test-guide';
-import {CourseInformation,UniversityDepartments} from './course-details';
+import {CourseInformation,UniversityDepartments,courseLead} from './course-details';
 import type {Data,Entry,University,Region,Article,Career,Section,OfficialUpdate} from './api';
 const DataContext=createContext<Data>(null!);
 const useData=()=>useContext(DataContext);
@@ -62,7 +62,7 @@ function CourseDetail({slug}:{slug:string}){
   if(!course)return <NotFound/>;
   const university=d.universities.find(u=>u.id===course.university);
   const department=d.departments?.find(dep=>dep.id===course.department);
-  return <DetailLayout entry={{...course,sections:[]}} category={university?.title||'Universities'} categoryUrl={university?'/universities/'+university.slug:'/universities'} sidebar={<>
+  return <DetailLayout entry={{...course,summary:courseLead(course),sections:[]}} category={university?.title||'Universities'} categoryUrl={university?'/universities/'+university.slug:'/universities'} sidebar={<>
     {university&&<><Link className="text-link" to={'/universities/'+university.slug}>{university.title}<ArrowUpRight size={16}/></Link><p>Italy, {university.city}</p></>}
     {department&&<div className="course-department"><Building2 size={23}/><h3>{department.title}</h3>{department.address&&<p className="course-prose">{department.address}</p>}{department.website&&<a className="text-link" href={safeUrl(department.website)} target="_blank" rel="noreferrer">Department website<ExternalLink size={15}/></a>}</div>}
   </>}><CourseInformation course={course}/><Sections sections={course.sections}/></DetailLayout>;

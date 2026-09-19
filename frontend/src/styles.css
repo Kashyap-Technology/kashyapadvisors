@@ -533,6 +533,30 @@ td,th{padding:16px;border-bottom:1px solid var(--border);min-width:135px}
 .course-text-card{padding:22px;background:white;border:1px solid var(--border);border-radius:8px;box-shadow:0 8px 24px rgba(31,70,53,.05)}
 .course-text-card h3{font-size:20px;margin-bottom:12px;text-wrap:balance}
 .course-link-card{display:flex;flex-direction:column;justify-content:space-between;gap:18px;background:var(--wash)}
+.course-notes{margin-top:64px}
+.course-notes-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.course-note-card{min-width:0;padding:24px;background:white;border:1px solid var(--border);border-radius:8px;box-shadow:0 8px 24px rgba(31,70,53,.05)}
+.course-note-card-wide{grid-column:1 / -1}
+.course-note-heading{display:flex;align-items:flex-start;gap:12px;margin-bottom:20px}
+.course-note-icon{display:grid;place-items:center;width:38px;height:38px;flex-shrink:0;border-radius:50%;background:var(--wash);color:var(--green)}
+.course-note-kicker{display:block;margin-bottom:4px;color:var(--green);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.course-note-heading h3{margin:0;font-size:21px;text-wrap:balance}
+.course-note-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 24px;margin:0;padding:0;list-style:none}
+.course-note-list li{position:relative;padding-left:16px;border-left:2px solid #d9e6db}
+.course-note-list li:before{position:absolute;top:7px;left:-5px;width:8px;height:8px;border-radius:50%;background:var(--red);content:''}
+.course-note-list strong{display:block;margin-bottom:6px;font-size:14px}
+.course-note-list p,.course-note-card>.course-prose{margin:0;color:var(--muted);font-size:14px;line-height:1.7}
+.course-note-card a{overflow-wrap:anywhere}
+.course-contact-list,.course-official-links{display:grid;gap:10px}
+.course-contact{display:flex;flex-direction:column;gap:3px;padding:12px 14px;border:1px solid var(--border);border-radius:6px;background:var(--wash);color:var(--ink);text-decoration:none}
+.course-contact span{font-size:13px;font-weight:600;line-height:1.45}
+.course-contact strong{color:var(--green);font-size:13px;overflow-wrap:anywhere}
+.course-contact:hover{border-color:var(--green);background:white}
+.course-official-link{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:3px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:6px;background:white;color:var(--ink);text-decoration:none}
+.course-official-link span{font-size:14px;font-weight:600;line-height:1.4}
+.course-official-link small{grid-column:1;color:var(--muted);overflow-wrap:anywhere}
+.course-official-link svg{grid-column:2;grid-row:1 / span 2;color:var(--green)}
+.course-official-link:hover{border-color:var(--green);background:var(--wash)}
 .admission-call{padding:28px;margin-top:24px;background:var(--wash);border:1px solid var(--border);border-radius:8px}
 .admission-call .eyebrow{margin-bottom:12px}
 .admission-call h3{margin-bottom:12px;text-wrap:balance}
@@ -555,6 +579,9 @@ td,th{padding:16px;border-bottom:1px solid var(--border);min-width:135px}
  .admission-dates{grid-template-columns:1fr;gap:20px}
  .admission-call,.department-card{padding:20px}
  .course-requirements-grid{grid-template-columns:1fr}
+ .course-notes-grid{grid-template-columns:1fr}
+ .course-note-card-wide{grid-column:auto}
+ .course-note-list{grid-template-columns:1fr}
  .course-section-heading h2,.course-admissions h2{font-size:28px}
  .official-updates{padding-block:48px}
  .official-updates-head{display:block}
