@@ -14,8 +14,9 @@ class CourseCatalogTests(TestCase):
     @classmethod
     def setUpTestData(cls):
         cls.region=m.Region.objects.create(title='Veneto',slug='veneto',code=5,published=True)
-        cls.university=m.University.objects.create(title='University of Padua',slug='padua',region=cls.region,city='Padua',website='https://www.unipd.it',published=True)
-        cls.other=m.University.objects.create(title='Other university',slug='other',region=cls.region,city='Other',website='https://example.com',published=True)
+        cls.country,_=m.Country.objects.get_or_create(code='IT',defaults={'name':'Italy','slug':'italy','published':True})
+        cls.university=m.University.objects.create(title='University of Padua',slug='padua',country=cls.country,region=cls.region,city='Padua',website='https://www.unipd.it',published=True)
+        cls.other=m.University.objects.create(title='Other university',slug='other',country=cls.country,region=cls.region,city='Other',website='https://example.com',published=True)
         cls.department=m.Department.objects.create(title='Comparative Biomedicine and Food Science',university=cls.university,address='Agripolis, Legnaro',published=True)
         cls.other_department=m.Department.objects.create(title='Other department',university=cls.other,published=True)
         cls.course=m.Course.objects.create(title='Animal Care',slug='animal-care',university=cls.university,department=cls.department,degree='Bachelor’s degree',discipline='Animal science',published=True)
