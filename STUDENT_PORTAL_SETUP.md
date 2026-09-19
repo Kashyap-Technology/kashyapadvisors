@@ -13,6 +13,8 @@ The first portal slice is student-only. Agent and university accounts are intent
 - Admin-managed applications, stages and recommendation requests.
 - AI course-guidance requests through the OpenAI Responses API when configured.
 
+Portal code lives in the dedicated `backend/portal` Django app. The existing public catalog remains in `platform_app`; the portal API URLs are unchanged. The app split uses a state-only migration, so existing student records and Storj object keys keep working without a data copy.
+
 ## Render environment variables
 
 Set these on the backend service:
