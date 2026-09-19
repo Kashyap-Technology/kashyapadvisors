@@ -16,6 +16,14 @@ For a Render web service, use a release/start command that runs migrations and s
 python manage.py migrate && python manage.py seed_content && gunicorn config.wsgi:application --chdir backend
 ```
 
+Keep dependency installation and static collection in Render's **Build Command**, not its Start Command:
+
+```bash
+pip install -r requirements.txt && python manage.py collectstatic --noinput
+```
+
+If the service root is the repository root, use `pip install -r backend/requirements.txt && python backend/manage.py collectstatic --noinput` instead.
+
 If Render’s service root is already `backend`, omit `--chdir backend` and run:
 
 ```bash
