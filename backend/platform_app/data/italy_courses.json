@@ -738,10 +738,10 @@
           "value": "End: | End: | End:"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://ing-mes.unifi.it",
+      "verified_at": "2026-09-19",
       "summary": "Mechanical Engineering for Sustainability at University of Florence."
     },
     {
@@ -2828,10 +2828,10 @@
           "value": "11/15/26 | End: | 46390 | End: | 46393 | End: | N/A"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipd.it/en/materials-engineering",
+      "verified_at": "2026-09-19",
       "summary": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered."
     },
     {
@@ -3452,10 +3452,10 @@
           "value": "11/15/26 | End: | 46390 | End: | 46393 | End: | N/A"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipd.it/en/materials-science",
+      "verified_at": "2026-09-19",
       "summary": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered."
     },
     {
@@ -19298,10 +19298,10 @@
           "value": "End: | N/A | End: | N/A | End: | N/A"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.civil-environmental.unina.it",
+      "verified_at": "2026-09-19",
       "summary": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered."
     },
     {
@@ -24543,10 +24543,10 @@
       ],
       "source_note": "Workbook source URLs: https://apply.unive.it | https://unive.it/fees | https://www.unive.it/en/degree-programmes | https://www.unive.it/fees | https://www.unive.it/pag/12512/ | https://ww.unive.it/en/degree-programmes | https://ww.unive.it/fees | https://ww.unive.it/pag/12512/",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unive.it/degree/lmr10",
+      "verified_at": "2026-09-19",
       "summary": "English-taught programme selected for non-EU / non-Italian degree applicants (from the official Ca' Foscari English degree list, a.y. 2026/2027). Admission: Limited."
     },
     {
@@ -25049,10 +25049,10 @@
       ],
       "source_note": "Workbook source URLs: https://apply.unive.it | https://unive.it/fees | https://www.unive.it/en/degree-programmes | https://www.unive.it/fees | https://www.unive.it/pag/12512/ | https://ww.unive.it/en/degree-programmes | https://ww.unive.it/fees | https://ww.unive.it/pag/12512/",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unive.it/degree/cmr5",
+      "verified_at": "2026-09-19",
       "summary": "English-taught programme selected for non-EU / non-Italian degree applicants (from the official Ca' Foscari English degree list, a.y. 2026/2027). Open access. Double/joint degree programme (international mobility)."
     },
     {
@@ -29405,10 +29405,10 @@
       ],
       "source_note": "Workbook source URLs: https://www.studenti.unibo.it/ | https://ww.studenti.unibo.it/",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.studenti.unibo.it/",
+      "verified_at": "2026-09-19",
       "summary": "______________________________________________________________________ GENERAL NOTES APPLICABLE TO ALL UNIBO ENGLISH MASTERS (second cycle, Bologna) ______________________________________________________________________ * No general UniBo pre-enrolment deadline on Universitaly exists for these degrees: the binding dates are the intakes deadlines in each call (above) and the matriculation + first-instalment deadlines (24 Sep 2026 / 19 Nov 2026). * All the April/May/June 2026 intakes relevant for Nepalese applicants (non-EU, resident abroad) must be respected strictly - deadlines are peremptory. * For every degree you must still: pre-enrol free on https://www.universitaly.it/ (for the entry visa), apply/enrol on Studenti Online https://www.studenti.unibo.it/, and pay the first fee instalment EUR 157.04 by 24 Sep 2026. * ISEE / foreign-income documentation by 30 Oct 2026 (or 16 Nov 2026 + EUR 100) - NEPAL = NON-OECD country, so Nepalese students with family income/assets only in Nepal rec"
     },
     {
@@ -30890,8 +30890,8 @@
     }
   ],
   "verification_summary": {
-    "verified_courses": 588,
-    "pending_courses": 64,
+    "verified_courses": 595,
+    "pending_courses": 57,
     "excluded_blocks": 1,
     "method": "Official-domain source availability plus course-title evidence from the supplied workbook links; PDF and generic catalogue pages were retained only when the official source was reachable."
   }
