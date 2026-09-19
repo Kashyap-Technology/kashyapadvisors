@@ -2,7 +2,7 @@ export type Section={heading:string;body:string;kind?:string;source_url?:string}
 export type Entry={id:number;title:string;slug:string;summary:string;image:string;image_url:string;sections:Section[];source_url:string;updated_at:string;reviewed_at:string|null;kind?:string;order:number};
 export type Region=Entry&{code:number;cities:string[];scholarship:number|null;living_cost:string};
 export type Country={id:number;name:string;slug:string;code:string;published:boolean};
-export type University=Entry&{country:number|null;region:number;city:string;logo:string;institution_type:string;english_taught:boolean;featured:boolean;disciplines:string[];degrees:string[];latitude:number;longitude:number;tuition:string;deadline:string|null;website:string};
+export type University=Entry&{country:number|null;region:number;city:string;logo:string;logo_url:string;institution_type:string;english_taught:boolean;featured:boolean;disciplines:string[];degrees:string[];latitude:number;longitude:number;tuition:string;deadline:string|null;website:string};
 export type Scholarship=Entry&{authority:string;deadline:string|null;eligibility:string};
 export type Department={id:number;university:number;title:string;address:string;description:string;website:string;order:number};
 export type CourseDetailField={id:number;key:string;label:string;presentation:'fact'|'section';value:string;source_url:string;link_label:string};
@@ -20,5 +20,5 @@ function normalizeData(data:Partial<Data>):Data{return {...data,settings:{...def
 const configuredApiOrigin=import.meta.env.VITE_API_URL||'';
 const API_ORIGIN=(configuredApiOrigin.includes('kashyapadvisors-frontend.onrender.com')?'':configuredApiOrigin||(import.meta.env.PROD?'https://kashyapadvisors-backend.onrender.com':'')).replace(/\/$/,'');
 export async function request<T>(path:string,options?:RequestInit):Promise<T>{const res=await fetch(`${API_ORIGIN}/api/${path}`,{...options,headers:options?.body instanceof FormData?options.headers:{'Content-Type':'application/json',...options?.headers}});if(!res.ok){let message='We couldn’t complete your request. Please try again.';try{const body=await res.json();message=Object.entries(body).map(([k,v])=>`${k}: ${Array.isArray(v)?v.join(' '):v}`).join(' ')}catch{}throw new Error(message)}const data=await res.json();return (path==='content/'?normalizeData(data):data) as T}
-export const imageOf=(e:Entry)=>e.image||e.image_url||(('logo' in e&&typeof e.logo==='string'&&e.logo)||'/assets/logo.png');
+export const imageOf=(e:Entry)=>('logo_url' in e&&typeof e.logo_url==='string'&&e.logo_url)||e.image||e.image_url||(('logo' in e&&typeof e.logo==='string'&&e.logo)||'/assets/logo.png');
 export const safeUrl=(s:string)=>/^https?:\/\//i.test(s)?s:'#';

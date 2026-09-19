@@ -32,7 +32,7 @@ class UniversityAdmin(ContentAdmin):
     fieldsets=(
         ('University identity',{'fields':('title','slug','country','region','city','institution_type','website')}),
         ('Study profile',{'fields':('summary','disciplines','degrees','english_taught','featured')}),
-        ('Brand & location',{'fields':('logo','latitude','longitude')}),
+        ('Brand & location',{'fields':('logo','logo_url','latitude','longitude')}),
         ('Publishing & sources',{'fields':('published','order','source_url','reviewed_at','image','image_url')}),
     )
     inlines=[DepartmentInline,CourseInline]

@@ -102,6 +102,7 @@ class University(Content):
     region = models.ForeignKey(Region,on_delete=models.PROTECT,related_name='universities')
     city = models.CharField(max_length=100)
     logo = models.ImageField(upload_to='universities/logos/',blank=True)
+    logo_url = models.URLField(blank=True,help_text='Official university logo or favicon URL used when no uploaded logo is available.')
     institution_type = models.CharField(max_length=10,choices=[('public','Public'),('private','Private')],default='public')
     english_taught = models.BooleanField(default=False)
     featured = models.BooleanField(default=False)
