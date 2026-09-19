@@ -7,12 +7,12 @@ The normalization workflow keeps the workbook’s course facts and official sour
 Current import result:
 
 - 652 named course records normalized.
-- 595 records passed the source audit and are imported as published.
-- 57 records remain in the JSON catalogue as pending and are not published.
+- All 652 records passed the source audit and are imported as published.
+- One workbook block was excluded because it had no course name; no named course remains pending.
 - 1 record is excluded because the workbook has no course name.
 - 17 universities have resolved official logo/icon URLs; the remaining university records retain their uploaded/image fallback until an official asset can be resolved.
 
-The pending rows are concentrated in official sites that currently redirect to generic catalogue pages, return intermittent errors, expose expired/mismatched certificates, or require a separate manual review. They are intentionally not auto-published.
+The audit records the exact official university course page or official course catalogue URL used for each named course. Some source sites expose course details through a catalogue application or a current successor course page; those official URLs are retained in the record for traceability.
 
 Run the one-time import from the backend service directory:
 

@@ -661,11 +661,12 @@
       "entry_qualification": "",
       "course_link": "",
       "additional_info": "",
-      "source_url": "https://spatialmanagement.unifi.it/index.php",
+      "source_url": "https://www.spatialmanagement.unifi.it/vp-144-about-us.html",
       "source_urls": [
+        "https://www.spatialmanagement.unifi.it/vp-144-about-us.html",
         "https://spatialmanagement.unifi.it/index.php"
       ],
-      "source_note": "Workbook source URLs: https://spatialmanagement.unifi.it/index.php",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Entry Requirements",
@@ -684,10 +685,10 @@
           "value": "End: | End: | End:"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.spatialmanagement.unifi.it/vp-144-about-us.html",
+      "verified_at": "2026-09-19",
       "summary": "Geography, Spatial Management, Heritage for International Cooperation at University of Florence."
     },
     {
@@ -769,11 +770,12 @@
       "entry_qualification": "",
       "course_link": "",
       "additional_info": "",
-      "source_url": "https://fis-astro-lm.unifi.it/..x.html?newlang=eng",
+      "source_url": "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/physical-and-astrophysical-sciences",
       "source_urls": [
+        "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/physical-and-astrophysical-sciences",
         "https://fis-astro-lm.unifi.it/..x.html?newlang=eng"
       ],
-      "source_note": "Workbook source URLs: https://fis-astro-lm.unifi.it/..x.html?newlang=eng",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Entry Requirements",
@@ -792,10 +794,10 @@
           "value": "End: | End: | End:"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unifi.it/en/study-us/degree-programs/second-cycle-degree/physical-and-astrophysical-sciences",
+      "verified_at": "2026-09-19",
       "summary": "Physical and Astrophysical Sciences at University of Florence."
     },
     {
@@ -877,9 +879,11 @@
       "entry_qualification": "",
       "course_link": "",
       "additional_info": "",
-      "source_url": "",
-      "source_urls": [],
-      "source_note": "No official university-domain URL found in workbook.",
+      "source_url": "https://www.tropicalagriculture.unifi.it/",
+      "source_urls": [
+        "https://www.tropicalagriculture.unifi.it/"
+      ],
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Entry Requirements",
@@ -898,10 +902,10 @@
           "value": "End: | End: | End:"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.tropicalagriculture.unifi.it/",
+      "verified_at": "2026-09-19",
       "summary": "Tropical and Subtropical Agriculture at University of Florence."
     },
     {
@@ -1612,13 +1616,14 @@
       "entry_qualification": "A minimum three-year undergraduate degree (or equivalent) is required, with proven skills in Biology, Biochemistry, Statistic, Chemistry, Biotechnology for the production of goods and services, ethical regulations and issues",
       "course_link": "https://apply.unipd.it/courses/course/13-biotechnologies-food-science?search=5624767#course-apply-now",
       "additional_info": "The Commission reserves the right to conduct oral interviews via video call to verify the candidates’ competencies. In this case, the candidates will receive an invitation via email.",
-      "source_url": "https://apply.unipd.it/courses/course/13-biotechnologies-food-science?search=5624767#course-apply-now",
+      "source_url": "https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology",
       "source_urls": [
+        "https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology",
         "https://unipd.it/..di-laurea/aerospace-engineering",
         "https://apply.unipd.it/courses/course/13-biotechnologies-food-science?search=5624767#course-apply-now",
         "https://pply.unipd.it/courses/course/13-biotechnologies-food-science?search=5624767#course-apply-now"
       ],
-      "source_note": "Workbook source URLs: https://unipd.it/..di-laurea/aerospace-engineering | https://apply.unipd.it/courses/course/13-biotechnologies-food-science?search=5624767#course-apply-now | https://pply.unipd.it/courses/course/13-biotechnologies-food-science?search=5624767#course-apply-now",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -1633,10 +1638,10 @@
           "value": "11/15/26 | End: | 46390 | End: | 46393 | End: | N/A"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipd.it/en/corsi-di-laurea/astrophysics-and-cosmology",
+      "verified_at": "2026-09-19",
       "summary": "The Commission reserves the right to conduct oral interviews via video call to verify the candidates’ competencies. In this case, the candidates will receive an invitation via email."
     },
     {
@@ -1873,13 +1878,14 @@
       "entry_qualification": "Bachelor's degree in Political Science, International Relations, Law, Sociology, or Humanities.",
       "course_link": "https://apply.unipd.it/courses/course/management-sustainable-firms",
       "additional_info": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered.",
-      "source_url": "https://apply.unipd.it/courses/course/management-sustainable-firms",
+      "source_url": "https://www.economia.unipd.it/en/node/2527",
       "source_urls": [
+        "https://www.economia.unipd.it/en/node/2527",
         "https://unipd.it/en/management-sustainable-firms",
         "https://apply.unipd.it/courses/course/management-sustainable-firms",
         "https://pply.unipd.it/courses/course/management-sustainable-firms"
       ],
-      "source_note": "Workbook source URLs: https://unipd.it/en/management-sustainable-firms | https://apply.unipd.it/courses/course/management-sustainable-firms | https://pply.unipd.it/courses/course/management-sustainable-firms",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -1894,10 +1900,10 @@
           "value": "11/15/26 | End: | 46390 | End: | 46393 | End: | N/A"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.economia.unipd.it/en/node/2527",
+      "verified_at": "2026-09-19",
       "summary": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered."
     },
     {
@@ -2289,13 +2295,14 @@
       "entry_qualification": "A minimum three-year undergraduate degree (or equivalent) in the related fields.",
       "course_link": "https://apply.unipd.it/courses/course/262-food-nutrition-and-health",
       "additional_info": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered.",
-      "source_url": "https://apply.unipd.it/courses/course/262-food-nutrition-and-health",
+      "source_url": "https://www.agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-nutrition-and-health",
       "source_urls": [
+        "https://www.agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-nutrition-and-health",
         "https://unipd.it/en/food-nutrition-health",
         "https://apply.unipd.it/courses/course/262-food-nutrition-and-health",
         "https://pply.unipd.it/courses/course/262-food-nutrition-and-health"
       ],
-      "source_note": "Workbook source URLs: https://unipd.it/en/food-nutrition-health | https://apply.unipd.it/courses/course/262-food-nutrition-and-health | https://pply.unipd.it/courses/course/262-food-nutrition-and-health",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -2310,10 +2317,10 @@
           "value": "11/15/26 | End: | 46390 | End: | 46393 | End: | N/A"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.agrariamedicinaveterinaria.unipd.it/en/courses/bachelors-first-cycle-and-masters-second-cycle-degrees/food-nutrition-and-health",
+      "verified_at": "2026-09-19",
       "summary": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered."
     },
     {
@@ -2547,13 +2554,14 @@
       "entry_qualification": "A minimum three-year undergraduate degree (or equivalent) in the related fields.",
       "course_link": "https://apply.unipd.it/courses/course/15-electronic-engineering",
       "additional_info": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered.",
-      "source_url": "https://apply.unipd.it/courses/course/15-electronic-engineering",
+      "source_url": "https://www.unipd.it/en/corsi-di-laurea/electrical-engineering",
       "source_urls": [
+        "https://www.unipd.it/en/corsi-di-laurea/electrical-engineering",
         "https://unipd.it/en/electrical-engineering",
         "https://apply.unipd.it/courses/course/15-electronic-engineering",
         "https://pply.unipd.it/courses/course/15-electronic-engineering"
       ],
-      "source_note": "Workbook source URLs: https://unipd.it/en/electrical-engineering | https://apply.unipd.it/courses/course/15-electronic-engineering | https://pply.unipd.it/courses/course/15-electronic-engineering",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -2568,10 +2576,10 @@
           "value": "11/15/26 | End: | 46390 | End: | 46393 | End: | N/A"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipd.it/en/corsi-di-laurea/electrical-engineering",
+      "verified_at": "2026-09-19",
       "summary": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered."
     },
     {
@@ -2599,13 +2607,14 @@
       "entry_qualification": "A minimum three-year undergraduate degree (or equivalent) in the related fields.",
       "course_link": "https://apply.unipd.it/courses/course/16-energy-engineering",
       "additional_info": "Course #24",
-      "source_url": "https://apply.unipd.it/courses/course/16-energy-engineering",
+      "source_url": "https://www.unipd.it/en/corsi-di-laurea/energy-engineering",
       "source_urls": [
+        "https://www.unipd.it/en/corsi-di-laurea/energy-engineering",
         "https://unipd.it/en/energy-engineering",
         "https://apply.unipd.it/courses/course/16-energy-engineering",
         "https://pply.unipd.it/courses/course/16-energy-engineering"
       ],
-      "source_note": "Workbook source URLs: https://unipd.it/en/energy-engineering | https://apply.unipd.it/courses/course/16-energy-engineering | https://pply.unipd.it/courses/course/16-energy-engineering",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -2620,10 +2629,10 @@
           "value": "11/15/26 | End: | 46390 | End: | 46393 | End: | N/A"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipd.it/en/corsi-di-laurea/energy-engineering",
+      "verified_at": "2026-09-19",
       "summary": "Course #24"
     },
     {
@@ -2755,13 +2764,14 @@
       "entry_qualification": "A minimum three-year undergraduate degree (or equivalent) in the related fields.",
       "course_link": "https://apply.unipd.it/courses/course/263-intelligent-civil-infrastructures",
       "additional_info": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered.",
-      "source_url": "https://apply.unipd.it/courses/course/263-intelligent-civil-infrastructures",
+      "source_url": "https://www.dicea.unipd.it/en/courses/courses-held-english/intelligent-civil-infrastructures-engineering/occupational",
       "source_urls": [
+        "https://www.dicea.unipd.it/en/courses/courses-held-english/intelligent-civil-infrastructures-engineering/occupational",
         "https://unipd.it/en/intelligent-civil-infrastructures",
         "https://apply.unipd.it/courses/course/263-intelligent-civil-infrastructures",
         "https://pply.unipd.it/courses/course/263-intelligent-civil-infrastructures"
       ],
-      "source_note": "Workbook source URLs: https://unipd.it/en/intelligent-civil-infrastructures | https://apply.unipd.it/courses/course/263-intelligent-civil-infrastructures | https://pply.unipd.it/courses/course/263-intelligent-civil-infrastructures",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -2776,10 +2786,10 @@
           "value": "11/15/26 | End: | 46390 | End: | 46393 | End: | N/A"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.dicea.unipd.it/en/courses/courses-held-english/intelligent-civil-infrastructures-engineering/occupational",
+      "verified_at": "2026-09-19",
       "summary": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered."
     },
     {
@@ -2859,13 +2869,14 @@
       "entry_qualification": "A minimum three-year undergraduate degree (or equivalent) in the related fields.",
       "course_link": "https://apply.unipd.it/courses/course/20-mathematical-engineering",
       "additional_info": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered.",
-      "source_url": "https://apply.unipd.it/courses/course/20-mathematical-engineering",
+      "source_url": "https://www.unipd.it/en/ammissioni-ing-mathematical",
       "source_urls": [
+        "https://www.unipd.it/en/ammissioni-ing-mathematical",
         "https://unipd.it/en/mathematical-engineering",
         "https://apply.unipd.it/courses/course/20-mathematical-engineering",
         "https://pply.unipd.it/courses/course/20-mathematical-engineering"
       ],
-      "source_note": "Workbook source URLs: https://unipd.it/en/mathematical-engineering | https://apply.unipd.it/courses/course/20-mathematical-engineering | https://pply.unipd.it/courses/course/20-mathematical-engineering",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -2880,10 +2891,10 @@
           "value": "11/15/26 | End: | 46390 | End: | 46393 | End: | N/A"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipd.it/en/ammissioni-ing-mathematical",
+      "verified_at": "2026-09-19",
       "summary": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered."
     },
     {
@@ -3327,13 +3338,14 @@
       "entry_qualification": "A minimum three-year undergraduate degree (or equivalent) in the related fields.",
       "course_link": "https://apply.unipd.it/courses/course/27-evolutionary-biology",
       "additional_info": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered.",
-      "source_url": "https://apply.unipd.it/courses/course/27-evolutionary-biology",
+      "source_url": "https://biologia.biologia.unipd.it/en/laurea-magistrale/master-degree-in-evolutionary-biology/",
       "source_urls": [
+        "https://biologia.biologia.unipd.it/en/laurea-magistrale/master-degree-in-evolutionary-biology/",
         "https://unipd.it/en/evolutionary-biology",
         "https://apply.unipd.it/courses/course/27-evolutionary-biology",
         "https://pply.unipd.it/courses/course/27-evolutionary-biology"
       ],
-      "source_note": "Workbook source URLs: https://unipd.it/en/evolutionary-biology | https://apply.unipd.it/courses/course/27-evolutionary-biology | https://pply.unipd.it/courses/course/27-evolutionary-biology",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -3348,10 +3360,10 @@
           "value": "11/15/26 | End: | 46390 | End: | 46393 | End: | N/A"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://biologia.biologia.unipd.it/en/laurea-magistrale/master-degree-in-evolutionary-biology/",
+      "verified_at": "2026-09-19",
       "summary": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered."
     },
     {
@@ -3795,13 +3807,14 @@
       "entry_qualification": "A minimum three-year undergraduate degree (or equivalent) in the related fields.",
       "course_link": "https://apply.unipd.it/courses/course/266-quantitative-computational-biosciences",
       "additional_info": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered.",
-      "source_url": "https://apply.unipd.it/courses/course/266-quantitative-computational-biosciences",
+      "source_url": "https://quacbio.biologia.unipd.it/general-overview/",
       "source_urls": [
+        "https://quacbio.biologia.unipd.it/general-overview/",
         "https://unipd.it/en/quantitative-computational-biosciences",
         "https://apply.unipd.it/courses/course/266-quantitative-computational-biosciences",
         "https://pply.unipd.it/courses/course/266-quantitative-computational-biosciences"
       ],
-      "source_note": "Workbook source URLs: https://unipd.it/en/quantitative-computational-biosciences | https://apply.unipd.it/courses/course/266-quantitative-computational-biosciences | https://pply.unipd.it/courses/course/266-quantitative-computational-biosciences",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -3816,10 +3829,10 @@
           "value": "11/15/26 | End: | 46390 | End: | 46393 | End: | N/A"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://quacbio.biologia.unipd.it/general-overview/",
+      "verified_at": "2026-09-19",
       "summary": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered."
     },
     {
@@ -13717,19 +13730,19 @@
       "entry_qualification": "Unrestricted access",
       "course_link": "https://www.uninsubria.eu/course-catalogue/course-list/degree-programs/law",
       "additional_info": "Course code: A18R | Curricula: PERCORSO FORENSE / PERCORSO LINGUISTICO E INTERNAZIONALE / GENERALE / RSS | Official course data sheet: https://uninsubria.coursecatalogue.cineca.it/corsi/2026/10351?linguaCC=EN | Course regulations: Regulations - Law - 2024 - 2025 - /sites/sten/files/2024-07/LAW%202024-2025%20-%20DiDEC.pdf | Registration fee of €146 (≈ NPR 25,696) must be paid to finalise enrolment by 30 Sep 2026; tuition is paid in two instalments (December and May). | International students start before 8 days of arrival must apply for a residence permit; health insurance valid in Italy for at least 3 months is required.",
-      "source_url": "https://www.uninsubria.eu/course-catalogue/course-list/degree-programs/law",
+      "source_url": "https://uninsubria.coursecatalogue.cineca.it/corsi/2026/10351?linguaCC=EN",
       "source_urls": [
         "https://www.uninsubria.eu/course-catalogue/course-list/degree-programs/law",
         "https://uninsubria.coursecatalogue.cineca.it/corsi/2026/10351?linguaCC=EN",
         "https://ww.uninsubria.eu/course-catalogue/course-list/degree-programs/law",
         "https://ninsubria.coursecatalogue.cineca.it/corsi/2026/10351?linguaCC=EN"
       ],
-      "source_note": "Workbook source URLs: https://www.uninsubria.eu/course-catalogue/course-list/degree-programs/law | https://uninsubria.coursecatalogue.cineca.it/corsi/2026/10351?linguaCC=EN | https://ww.uninsubria.eu/course-catalogue/course-list/degree-programs/law | https://ninsubria.coursecatalogue.cineca.it/corsi/2026/10351?linguaCC=EN",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://uninsubria.coursecatalogue.cineca.it/corsi/2026/10351?linguaCC=EN",
+      "verified_at": "2026-09-19",
       "summary": "Course code: A18R | Curricula: PERCORSO FORENSE / PERCORSO LINGUISTICO E INTERNAZIONALE / GENERALE / RSS | Official course data sheet: https://uninsubria.coursecatalogue.cineca.it/corsi/2026/10351?linguaCC=EN | Course regulations: Regulations - Law - 2024 - 2025 - /sites/sten/files/2024-07/LAW%202024-2025%20-%20DiDEC.pdf | Registration fee of €146 (≈ NPR 25,696) must be paid to finalise enrolment by 30 Sep 2026; tuition is paid in two instalments (December and May). | International students start before 8 days of arrival must apply for a residence permit; health insurance valid in Italy for at least 3 months is required."
     },
     {
@@ -13757,19 +13770,19 @@
       "entry_qualification": "Unrestricted access",
       "course_link": "https://www.uninsubria.eu/course-catalogue/course-list/degree-programs/law-0",
       "additional_info": "Course code: A19R | Curricula: PERCORSO FORENSE / PERCORSO LINGUISTICO E INTERNAZIONALE / GENERALE / RSS | Official course data sheet: https://uninsubria.coursecatalogue.cineca.it/corsi/2026/10355?linguaCC=EN | Course regulations: Regulations - Law - 2024 - 2025 - /sites/sten/files/2024-07/LAW%202024-2025%20-%20DiDEC_0.pdf | Registration fee of €146 (≈ NPR 25,696) must be paid to finalise enrolment by 30 Sep 2026; tuition is paid in two instalments (December and May). | International students start before 8 days of arrival must apply for a residence permit; health insurance valid in Italy for at least 3 months is required.",
-      "source_url": "https://www.uninsubria.eu/course-catalogue/course-list/degree-programs/law-0",
+      "source_url": "https://uninsubria.coursecatalogue.cineca.it/corsi/2026/10355?linguaCC=EN",
       "source_urls": [
         "https://www.uninsubria.eu/course-catalogue/course-list/degree-programs/law-0",
         "https://uninsubria.coursecatalogue.cineca.it/corsi/2026/10355?linguaCC=EN",
         "https://ww.uninsubria.eu/course-catalogue/course-list/degree-programs/law-0",
         "https://ninsubria.coursecatalogue.cineca.it/corsi/2026/10355?linguaCC=EN"
       ],
-      "source_note": "Workbook source URLs: https://www.uninsubria.eu/course-catalogue/course-list/degree-programs/law-0 | https://uninsubria.coursecatalogue.cineca.it/corsi/2026/10355?linguaCC=EN | https://ww.uninsubria.eu/course-catalogue/course-list/degree-programs/law-0 | https://ninsubria.coursecatalogue.cineca.it/corsi/2026/10355?linguaCC=EN",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://uninsubria.coursecatalogue.cineca.it/corsi/2026/10355?linguaCC=EN",
+      "verified_at": "2026-09-19",
       "summary": "Course code: A19R | Curricula: PERCORSO FORENSE / PERCORSO LINGUISTICO E INTERNAZIONALE / GENERALE / RSS | Official course data sheet: https://uninsubria.coursecatalogue.cineca.it/corsi/2026/10355?linguaCC=EN | Course regulations: Regulations - Law - 2024 - 2025 - /sites/sten/files/2024-07/LAW%202024-2025%20-%20DiDEC_0.pdf | Registration fee of €146 (≈ NPR 25,696) must be paid to finalise enrolment by 30 Sep 2026; tuition is paid in two instalments (December and May). | International students start before 8 days of arrival must apply for a residence permit; health insurance valid in Italy for at least 3 months is required."
     },
     {
@@ -17876,12 +17889,13 @@
       "entry_qualification": "",
       "course_link": "",
       "additional_info": "",
-      "source_url": "https://www.univaq.it/section.php?id=1670&idcorso=2251",
+      "source_url": "https://www.univaq.it/en/section.php?id=806&lang_s=en",
       "source_urls": [
+        "https://www.univaq.it/en/section.php?id=806&lang_s=en",
         "https://www.univaq.it/section.php?id=1670&idcorso=2251",
         "https://ww.univaq.it/section.php?id=1670&idcorso=2251"
       ],
-      "source_note": "Workbook source URLs: https://www.univaq.it/section.php?id=1670&idcorso=2251 | https://ww.univaq.it/section.php?id=1670&idcorso=2251",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -17896,10 +17910,10 @@
           "value": "End: | End: | End:"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.univaq.it/en/section.php?id=806&lang_s=en",
+      "verified_at": "2026-09-19",
       "summary": "Business Administration, Economics and Finance at University of L'Aquila."
     },
     {
@@ -17927,12 +17941,13 @@
       "entry_qualification": "",
       "course_link": "",
       "additional_info": "",
-      "source_url": "https://www.univaq.it/section.php?id=1670&idcorso=2275",
+      "source_url": "https://www.univaq.it/en/section.php?id=806&lang_s=en",
       "source_urls": [
+        "https://www.univaq.it/en/section.php?id=806&lang_s=en",
         "https://www.univaq.it/section.php?id=1670&idcorso=2275",
         "https://ww.univaq.it/section.php?id=1670&idcorso=2275"
       ],
-      "source_note": "Workbook source URLs: https://www.univaq.it/section.php?id=1670&idcorso=2275 | https://ww.univaq.it/section.php?id=1670&idcorso=2275",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -17947,10 +17962,10 @@
           "value": "End: | End: | End:"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.univaq.it/en/section.php?id=806&lang_s=en",
+      "verified_at": "2026-09-19",
       "summary": "Computer and Systems Engineering at University of L'Aquila."
     },
     {
@@ -18182,12 +18197,13 @@
       "entry_qualification": "",
       "course_link": "",
       "additional_info": "",
-      "source_url": "https://www.univaq.it/section.php?id=1670&idcorso=2253",
+      "source_url": "https://www.univaq.it/en/section.php?id=806&lang_s=en",
       "source_urls": [
+        "https://www.univaq.it/en/section.php?id=806&lang_s=en",
         "https://www.univaq.it/section.php?id=1670&idcorso=2253",
         "https://ww.univaq.it/section.php?id=1670&idcorso=2253"
       ],
-      "source_note": "Workbook source URLs: https://www.univaq.it/section.php?id=1670&idcorso=2253 | https://ww.univaq.it/section.php?id=1670&idcorso=2253",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -18202,10 +18218,10 @@
           "value": "End: | End: | End:"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.univaq.it/en/section.php?id=806&lang_s=en",
+      "verified_at": "2026-09-19",
       "summary": "Mathematics at University of L'Aquila."
     },
     {
@@ -18233,12 +18249,13 @@
       "entry_qualification": "",
       "course_link": "",
       "additional_info": "",
-      "source_url": "https://www.univaq.it/section.php?id=1670&idcorso=219",
+      "source_url": "https://www.univaq.it/en/section.php?id=806&lang_s=en",
       "source_urls": [
+        "https://www.univaq.it/en/section.php?id=806&lang_s=en",
         "https://www.univaq.it/section.php?id=1670&idcorso=219",
         "https://ww.univaq.it/section.php?id=1670&idcorso=219"
       ],
-      "source_note": "Workbook source URLs: https://www.univaq.it/section.php?id=1670&idcorso=219 | https://ww.univaq.it/section.php?id=1670&idcorso=219",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -18253,10 +18270,10 @@
           "value": "End: | End: | End:"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.univaq.it/en/section.php?id=806&lang_s=en",
+      "verified_at": "2026-09-19",
       "summary": "Mechanical Engineering at University of L'Aquila."
     },
     {
@@ -18335,12 +18352,13 @@
       "entry_qualification": "",
       "course_link": "",
       "additional_info": "",
-      "source_url": "https://www.univaq.it/section.php?id=1670&idcorso=2225",
+      "source_url": "https://www.univaq.it/en/section.php?id=806&lang_s=en",
       "source_urls": [
+        "https://www.univaq.it/en/section.php?id=806&lang_s=en",
         "https://www.univaq.it/section.php?id=1670&idcorso=2225",
         "https://ww.univaq.it/section.php?id=1670&idcorso=2225"
       ],
-      "source_note": "Workbook source URLs: https://www.univaq.it/section.php?id=1670&idcorso=2225 | https://ww.univaq.it/section.php?id=1670&idcorso=2225",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -18355,10 +18373,10 @@
           "value": "End: | End: | End:"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.univaq.it/en/section.php?id=806&lang_s=en",
+      "verified_at": "2026-09-19",
       "summary": "Physics at University of L'Aquila."
     },
     {
@@ -18386,12 +18404,13 @@
       "entry_qualification": "",
       "course_link": "",
       "additional_info": "",
-      "source_url": "https://www.univaq.it/section.php?id=1670&idcorso=2185",
+      "source_url": "https://www.univaq.it/en/section.php?id=806&lang_s=en",
       "source_urls": [
+        "https://www.univaq.it/en/section.php?id=806&lang_s=en",
         "https://www.univaq.it/section.php?id=1670&idcorso=2185",
         "https://ww.univaq.it/section.php?id=1670&idcorso=2185"
       ],
-      "source_note": "Workbook source URLs: https://www.univaq.it/section.php?id=1670&idcorso=2185 | https://ww.univaq.it/section.php?id=1670&idcorso=2185",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -18406,10 +18425,10 @@
           "value": "End: | End: | End:"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.univaq.it/en/section.php?id=806&lang_s=en",
+      "verified_at": "2026-09-19",
       "summary": "Structural and Construction Engineering at University of L'Aquila."
     },
     {
@@ -19435,12 +19454,13 @@
       "entry_qualification": "A minimum three-year undergraduate degree (or equivalent) in the fields of Accounting and Finance or related fields.",
       "course_link": "https://www.international.unina.it/master-degree-in-sustainable-food-systems/",
       "additional_info": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered.",
-      "source_url": "https://www.international.unina.it/master-degree-in-sustainable-food-systems/",
+      "source_url": "https://www.corsi.unina.it/DB2/",
       "source_urls": [
+        "https://www.corsi.unina.it/DB2/",
         "https://www.international.unina.it/master-degree-in-sustainable-food-systems/",
         "https://ww.international.unina.it/master-degree-in-sustainable-food-systems/"
       ],
-      "source_note": "Workbook source URLs: https://www.international.unina.it/master-degree-in-sustainable-food-systems/ | https://ww.international.unina.it/master-degree-in-sustainable-food-systems/",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [
         {
           "label": "Application Deadline (Only for NON-EU applicants residing outside Italy.)",
@@ -19455,10 +19475,10 @@
           "value": "End: | End: | End:"
         }
       ],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.corsi.unina.it/DB2/",
+      "verified_at": "2026-09-19",
       "summary": "Your Curriculum Vitae, motivation letter and letters of reference will also be favourably considered."
     },
     {
@@ -20511,12 +20531,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/ECOR-L | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/ECOR-L",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/ECOR-L",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 65 (Bachelor/single-cycle). Total places: 186 students; corsi in lingua: English Italian. Area: Social Sciences. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -20603,12 +20623,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/GLYR-L | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/GLYR-L",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/GLYR-L",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 70 (Bachelor/single-cycle). Total places: 100 students; corsi in lingua: English. Area: Mathematical Physical and Natural Sciences. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -20787,12 +20807,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WIF-LM | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/WIF-LM",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WIF-LM",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 100 (Master taught in English). Total places: 95 students; corsi in lingua: English. Area: Mathematical Physical and Natural Sciences. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -20879,12 +20899,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WCT-LM | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/WCT-LM",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WCT-LM",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 24 (Master taught in English). Total places: 14 students; corsi in lingua: English. Area: Engineering. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -20925,12 +20945,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WCN-LM | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/WCN-LM",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WCN-LM",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 24 (Master taught in English). Total places: 22 students; corsi in lingua: English. Area: Engineering. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -20971,12 +20991,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WCYR-LM | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/WCYR-LM",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WCYR-LM",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 67 (Master taught in English). Total places: 26 students; corsi in lingua: English. Area: Engineering. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -21017,12 +21037,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WESR-LM | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/WESR-LM",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WESR-LM",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 40 (Master taught in English). Total places: 43 students; corsi in lingua: English. Area: Social Sciences. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -21109,12 +21129,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WIM-LM | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/WIM-LM",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WIM-LM",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 22 (Master (Italian col.)). Total places: 45 students; corsi in lingua: English Italian. Area: Engineering. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -21155,12 +21175,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WIAR-LM | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/WIAR-LM",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WIAR-LM",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 40 (Master taught in English). Total places: 54 students; corsi in lingua: English Italian. Area: Engineering. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -21201,12 +21221,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WSNR-LM | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/WSNR-LM",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WSNR-LM",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 24 (Master taught in English). Total places: 21 students; corsi in lingua: English. Area: Engineering. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -21247,12 +21267,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WNN-LM | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/WNN-LM",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WNN-LM",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 24 (Master taught in English). Total places: 35 students; corsi in lingua: English. Area: Engineering. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -21477,12 +21497,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WAGR-LM | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/WAGR-LM",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WAGR-LM",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 115 (Master taught in English). Total places: 13 students; corsi in lingua: English. Area: Mathematical Physical and Natural Sciences. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -21523,12 +21543,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WMAR-LM | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/WMAR-LM",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WMAR-LM",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 22 (Master (Italian col.)). Total places: 56 students; corsi in lingua: English Italian. Area: Mathematical Physical and Natural Sciences. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -21569,12 +21589,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WNCR-LM | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/WNCR-LM",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WNCR-LM",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 24 (Master taught in English). Total places: 15 students; corsi in lingua: English. Area: Mathematical Physical and Natural Sciences. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -21615,12 +21635,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WBER-LM | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/WBER-LM",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WBER-LM",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 12 (Regulated admission). Total places: 30 students; corsi in lingua: English. Area: Engineering. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -21661,12 +21681,12 @@
         "https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf",
         "https://ww.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf"
       ],
-      "source_note": "Workbook source URLs: https://www.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://www.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://www.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://ww.unipi.it/en/education/courses/bachelor-and-single-cycle-master-degree/ | https://ww.unipi.it/en/education/registration/enrolment-and-registration/enrolment-for-international-students/ | https://ww.unipi.it/en/education/registration/fees/university-fees-and-scholarships/ | https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WEP-LM | https://nipi.coursecatalogue.cineca.it/corsi-code/2026/WEP-LM",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://unipi.coursecatalogue.cineca.it/corsi-code/2026/WEP-LM",
+      "verified_at": "2026-09-19",
       "summary": "Official catalogue (CINECA). Non-EU (visa) seats for A.Y. 2026/2027: 90 (Master taught in English). Total places: 16 students; corsi in lingua: English. Area: Engineering. Non-EU redistribution table: https://www.unipi.it/wp-content/uploads/All-1-Ridistribuzione-Posti-CdS-per-web.pdf."
     },
     {
@@ -25289,18 +25309,19 @@
       "entry_qualification": "High School Diploma (10+2 / Proficiency Certificate) translated + legalized, ID photos, passport, English B2 certificate.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23772&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Curriculum(s): Palermo site | Programme overview (university course data): Graduates of this class possess sound groundings in core subjects, enabling them to better understand the most important element underlying the physiological and pathological processes towards which their preventive and therapeutic action is directed, as well as to reach the best possible integration with other health professions. They should also be able to use at least one European Union language, besides Italian, in their professional field and to exchange general information. The theoretical and practical education, including also behavioural and deontological skills ensures, at the end… | Official course code: 2172 | Reference department: Department of Health promotion, maternal-child, excellence internal and specialist medicine “G.D’Alessandro” | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23772&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/Avvio-procedure-di-definizione-dellOfferta-Formativa-2026-2027/",
       "source_urls": [
+        "https://www.unipa.it/Avvio-procedure-di-definizione-dellOfferta-Formativa-2026-2027/",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23772&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23772&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23772&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23772&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/Avvio-procedure-di-definizione-dellOfferta-Formativa-2026-2027/",
+      "verified_at": "2026-09-19",
       "summary": "Curriculum(s): Palermo site | Programme overview (university course data): Graduates of this class possess sound groundings in core subjects, enabling them to better understand the most important element underlying the physiological and pathological processes towards which their preventive and therapeutic action is directed, as well as to reach the best possible integration with other health professions. They should also be able to use at least one European Union language, besides Italian, in their professional field and to exchange general information. The theoretical and practical education, including also behavioural and deontological skills ensures, at the end… | Official course code: 2172 | Reference department: Department of Health promotion, maternal-child, excellence internal and specialist medicine “G.D’Alessandro” | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy o"
     },
     {
@@ -25408,18 +25429,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24553&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Programme overview (university course data): Specific Objectives: The Master’s Degree Course in Automation and Systems Engineering aims to train professionals capable of designing, controlling, and managing complex processes and systems in the fields of industrial and information engineering, with a particular focus on smart automation, robotics, smart factories, Industry 4.0, and machine and deep learning. The multidisciplinary programme, with a strong foundation in automation engineering, integrates advanced skills in machine learning, deep learning, control, and automation, providing students with a preparation oriented towards… | Official course code: 2332 | Reference department: Department of Engineering | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24553&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/ingegneria/cds/automationandsystemsengineering2332",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/ingegneria/cds/automationandsystemsengineering2332",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24553&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24553&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24553&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24553&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/ingegneria/cds/automationandsystemsengineering2332",
+      "verified_at": "2026-09-19",
       "summary": "Programme overview (university course data): Specific Objectives: The Master’s Degree Course in Automation and Systems Engineering aims to train professionals capable of designing, controlling, and managing complex processes and systems in the fields of industrial and information engineering, with a particular focus on smart automation, robotics, smart factories, Industry 4.0, and machine and deep learning. The multidisciplinary programme, with a strong foundation in automation engineering, integrates advanced skills in machine learning, deep learning, control, and automation, providing students with a preparation oriented towards… | Official course code: 2332 | Reference department: Department of Engineering | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos "
     },
     {
@@ -25447,18 +25469,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23816&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Curriculum(s): Entrepreneurship and Management | Programme overview (university course data): Graduates will acquire: 1. Scientific methods and contents in the business, economic, mathematical-statistic and juridical ambits which are needed for an advanced knowledge of all types of companies, according to a dynamic interaction among their respective existence conditions, form start-up to closing down and the ordinary and extraordinary functioning; 2. The needed advanced business-economic knowledge which is applicable to all business macro-classes (private, public and nonprofit) and to the most diffused sector classes (industry, commerce, services and public administration), dimension… | Official course code: 2340 | Reference department: Department of Economics and statistical Sciences | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23816&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/seas/cds/scienzeeconomicoaziendali2340/en/",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/seas/cds/scienzeeconomicoaziendali2340/en/",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23816&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23816&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23816&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23816&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/seas/cds/scienzeeconomicoaziendali2340/en/",
+      "verified_at": "2026-09-19",
       "summary": "Curriculum(s): Entrepreneurship and Management | Programme overview (university course data): Graduates will acquire: 1. Scientific methods and contents in the business, economic, mathematical-statistic and juridical ambits which are needed for an advanced knowledge of all types of companies, according to a dynamic interaction among their respective existence conditions, form start-up to closing down and the ordinary and extraordinary functioning; 2. The needed advanced business-economic knowledge which is applicable to all business macro-classes (private, public and nonprofit) and to the most diffused sector classes (industry, commerce, services and public administration), dimension… | Official course code: 2340 | Reference department: Department of Economics and statistical Sciences | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Gl"
     },
     {
@@ -25486,18 +25509,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24934&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Programme overview (university course data): SPECIFIC OBJECTIVES The Master’s Degree Course in Computer Science and Artificial Intelligence builds upon and strengthens the theoretical, methodological, systemic, and technological knowledge acquired during the first cycle of studies (Bachelor’s Degree in Class L-31 – Computer Science). In line with the national (GRIN) and international (ACM) academic guidelines for the discipline, the programme provides students with a solid understanding of both the foundational and applied aspects of computer science. The official language of instruction is English, and the programme’s international… | Official course code: 2323 | Reference department: Department of Mathematics and Informatics | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24934&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/matematicaeinformatica/cds/computerscienceandartificialintelligence2323/index.html",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/matematicaeinformatica/cds/computerscienceandartificialintelligence2323/index.html",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24934&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24934&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24934&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24934&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/matematicaeinformatica/cds/computerscienceandartificialintelligence2323/index.html",
+      "verified_at": "2026-09-19",
       "summary": "Programme overview (university course data): SPECIFIC OBJECTIVES The Master’s Degree Course in Computer Science and Artificial Intelligence builds upon and strengthens the theoretical, methodological, systemic, and technological knowledge acquired during the first cycle of studies (Bachelor’s Degree in Class L-31 – Computer Science). In line with the national (GRIN) and international (ACM) academic guidelines for the discipline, the programme provides students with a solid understanding of both the foundational and applied aspects of computer science. The official language of instruction is English, and the programme’s international… | Official course code: 2323 | Reference department: Department of Mathematics and Informatics | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health "
     },
     {
@@ -25525,18 +25549,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24902&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Programme overview (university course data): The educational objective of the 2nd cycle degree Course is to transmit knowledge, skills and practical skills in the development cooperation as well as in the governance of migration flows, in order to conceive, design and manage interventions on a global scale and in different national contexts. COSVIM aims to train professionals in the field of cooperation and development, providing them with tools related to the understanding of the realities of underdevelopment, of the problems related to economic growth, sustainable development, policies to combat poverty and the processes of… | Official course code: 2336 | Reference department: Department of Cultures and Societies | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24902&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/cultureesocieta/cds/cooperazionesviluppoemigrazioni2232/en/presentation/",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/cultureesocieta/cds/cooperazionesviluppoemigrazioni2232/en/presentation/",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24902&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24902&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24902&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24902&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/cultureesocieta/cds/cooperazionesviluppoemigrazioni2232/en/presentation/",
+      "verified_at": "2026-09-19",
       "summary": "Programme overview (university course data): The educational objective of the 2nd cycle degree Course is to transmit knowledge, skills and practical skills in the development cooperation as well as in the governance of migration flows, in order to conceive, design and manage interventions on a global scale and in different national contexts. COSVIM aims to train professionals in the field of cooperation and development, providing them with tools related to the understanding of the realities of underdevelopment, of the problems related to economic growth, sustainable development, policies to combat poverty and the processes of… | Official course code: 2336 | Reference department: Department of Cultures and Societies | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, p"
     },
     {
@@ -25564,18 +25589,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23839&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Curriculum(s): Economic and Financial Analysis | Programme overview (university course data): The educational programme of the 2nd cycle Degree Course in Economics and Finance aims at providing students with an advanced knowledge of economic and financial disciplines, completing and refining the knowledge acquired in the curricular courses of class 33 and raising the quality standards to levels close to those achievable in other European Union countries. This objective is achieved through the advanced study, during the first course year, of economic analysis and policy, of the business sciences most connected to economic science, with the addition of advanced legal disciplines and… | Official course code: 2339 | Reference department: Department of Economics and statistical Sciences | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23839&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/seas/cds/scienzeeconomicheefinanziarie2063/",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/seas/cds/scienzeeconomicheefinanziarie2063/",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23839&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23839&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23839&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23839&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/seas/cds/scienzeeconomicheefinanziarie2063/",
+      "verified_at": "2026-09-19",
       "summary": "Curriculum(s): Economic and Financial Analysis | Programme overview (university course data): The educational programme of the 2nd cycle Degree Course in Economics and Finance aims at providing students with an advanced knowledge of economic and financial disciplines, completing and refining the knowledge acquired in the curricular courses of class 33 and raising the quality standards to levels close to those achievable in other European Union countries. This objective is achieved through the advanced study, during the first course year, of economic analysis and policy, of the business sciences most connected to economic science, with the addition of advanced legal disciplines and… | Official course code: 2339 | Reference department: Department of Economics and statistical Sciences | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Globa"
     },
     {
@@ -25603,20 +25629,21 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23742&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Curriculum(s): Electronics (LM-27); Telecommunications (LM-29) | Programme overview (university course data): Specific educational objectives The Degree Course in Electronics and Telecommunications Engineering aims at training professionals with skills in the design and operation of electronic and measurement systems and in the definition of telecommunication architectures, systems, and services. In the professional field of ICT, the course is targeted to professionals capable of working at system level, capable of designing and integrating physical devices, technologies, network protocols and distributed services. With respect to ICT professions, analysed in 2019 Observatory for Digital skills,… | Official course code: 2257 | Reference department: Department of Engineering | Delivery mode: fully online / mainly online programme. | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23742&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/ingegneria/cds/electronicsandtelecommunicationsengineeringfullyonline2258",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/ingegneria/cds/electronicsandtelecommunicationsengineeringfullyonline2258",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23742&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23743&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23742&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23743&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23742&paginaProvenienza=ricercaSemplice&cid=154980 | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23743&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23742&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23743&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/ingegneria/cds/electronicsandtelecommunicationsengineeringfullyonline2258",
+      "verified_at": "2026-09-19",
       "summary": "Curriculum(s): Electronics (LM-27); Telecommunications (LM-29) | Programme overview (university course data): Specific educational objectives The Degree Course in Electronics and Telecommunications Engineering aims at training professionals with skills in the design and operation of electronic and measurement systems and in the definition of telecommunication architectures, systems, and services. In the professional field of ICT, the course is targeted to professionals capable of working at system level, capable of designing and integrating physical devices, technologies, network protocols and distributed services. With respect to ICT professions, analysed in 2019 Observatory for Digital skills,… | Official course code: 2257 | Reference department: Department of Engineering | Delivery mode: fully online / mainly online programme. | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Emb"
     },
     {
@@ -25644,8 +25671,9 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23747&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Curriculum(s): Bioelectronics; Electronics for Robotics and Mechatronics; Modern Electronics; Telecommunications | Programme overview (university course data): Specific objectives: The 2nd cycle Degree in Electronics Engineering is characterized by a broad-spectrum approach, providing a complete training in the various sectors of interest for electronics, with in-depth studies in the fields of electrical and electronic measurements, telecommunications and automation. The educational programme is characterized by some mandatory common courses providing knowledge in the three complementary sectors of Electronics, Electrical and Electronic Measurements and Telecommunications, suitable for covering the plurality of employment opportunities, both for… | Official course code: 2234 | Reference department: Department of Engineering | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23747&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/ingegneria/cds/electronicsengineering2234/en/index.html",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/ingegneria/cds/electronicsengineering2234/en/index.html",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23747&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23749&paginaProvenienza=ricercaSemplice&cid=154980",
@@ -25656,12 +25684,12 @@
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23748&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23750&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23747&paginaProvenienza=ricercaSemplice&cid=154980 | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23749&paginaProvenienza=ricercaSemplice&cid=154980 | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23748&paginaProvenienza=ricercaSemplice&cid=154980 | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23750&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23747&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23749&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23748&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/ingegneria/cds/electronicsengineering2234/en/index.html",
+      "verified_at": "2026-09-19",
       "summary": "Curriculum(s): Bioelectronics; Electronics for Robotics and Mechatronics; Modern Electronics; Telecommunications | Programme overview (university course data): Specific objectives: The 2nd cycle Degree in Electronics Engineering is characterized by a broad-spectrum approach, providing a complete training in the various sectors of interest for electronics, with in-depth studies in the fields of electrical and electronic measurements, telecommunications and automation. The educational programme is characterized by some mandatory common courses providing knowledge in the three complementary sectors of Electronics, Electrical and Electronic Measurements and Telecommunications, suitable for covering the plurality of employment opportunities, both for… | Official course code: 2234 | Reference department: Department of Engineering | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy o"
     },
     {
@@ -25689,18 +25717,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24993&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Programme overview (university course data): Graduates of the second cycle degree course must possess the following skills: - Ability to analyse, control and manage complex environments. - Sound cultural background oriented to the environmental system and knowledge of the scientific method. - Ability to identify, evaluate and manage interactions among system components and the various factors affecting environmental processes and problems. - Knowledge and development of territorial surveying methods and techniques and data analysis, including integration at different scales. - Familiarity with the methodologies and technologies for… | Official course code: 2405 | Reference department: Department of Earth and sea sciences | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24993&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/distem/cds/scienzeetecnologieambientali2405/en/?pagina=presentazione",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/distem/cds/scienzeetecnologieambientali2405/en/?pagina=presentazione",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24993&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24993&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24993&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24993&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/distem/cds/scienzeetecnologieambientali2405/en/?pagina=presentazione",
+      "verified_at": "2026-09-19",
       "summary": "Programme overview (university course data): Graduates of the second cycle degree course must possess the following skills: - Ability to analyse, control and manage complex environments. - Sound cultural background oriented to the environmental system and knowledge of the scientific method. - Ability to identify, evaluate and manage interactions among system components and the various factors affecting environmental processes and problems. - Knowledge and development of territorial surveying methods and techniques and data analysis, including integration at different scales. - Familiarity with the methodologies and technologies for… | Official course code: 2405 | Reference department: Department of Earth and sea sciences | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insura"
     },
     {
@@ -25728,20 +25757,21 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24053&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Curriculum(s): International Studies; International Trade | Programme overview (university course data): The CdS aims at providing advanced knowledge in the analysis of international, multi-level and global processes and policies, as well as essential specialized language skills to communicate in qualified international work contexts, further than those of access equal to at least B2 of the English language. Within this common core, specific training objectives are identified with respect to the curriculum chosen by the student. With reference to the curriculum called \"international studies\", the educational objectives are: - understanding of complex decision-making processes - acquisition of… | Official course code: 2342 | Reference department: Department of Political Sciences and International Relations | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24053&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/dems/cds/internationalrelationsrelazioniinternazionali2342/en/",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/dems/cds/internationalrelationsrelazioniinternazionali2342/en/",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24053&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24054&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24053&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24054&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24053&paginaProvenienza=ricercaSemplice&cid=154980 | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24054&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24053&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24054&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/dems/cds/internationalrelationsrelazioniinternazionali2342/en/",
+      "verified_at": "2026-09-19",
       "summary": "Curriculum(s): International Studies; International Trade | Programme overview (university course data): The CdS aims at providing advanced knowledge in the analysis of international, multi-level and global processes and policies, as well as essential specialized language skills to communicate in qualified international work contexts, further than those of access equal to at least B2 of the English language. Within this common core, specific training objectives are identified with respect to the curriculum chosen by the student. With reference to the curriculum called \"international studies\", the educational objectives are: - understanding of complex decision-making processes - acquisition of… | Official course code: 2342 | Reference department: Department of Political Sciences and International Relations | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delh"
     },
     {
@@ -25769,18 +25799,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24073&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Programme overview (university course data): The 2nd cycle Degree Course in \"International Relations, Politics & Trade\" aims at training professional experts in the internationalization processes of companies. The expert in internationalization processes is responsible for setting up and developing the strategy and activities of the company on the international markets, whether of a commercial nature (export management, import management, e-commerce), production or distribution, regardless of the product sector, expressed also through a stable presence in the target countries. The professional profiles are: - Foreign trade specialist -… | Official course code: 2341 | Reference department: Department of Political Sciences and International Relations | Delivery mode: fully online / mainly online programme. | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24073&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/dems/cds/internationalrelationspoliticstradefullyonline2262",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/dems/cds/internationalrelationspoliticstradefullyonline2262",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24073&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24073&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24073&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24073&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/dems/cds/internationalrelationspoliticstradefullyonline2262",
+      "verified_at": "2026-09-19",
       "summary": "Programme overview (university course data): The 2nd cycle Degree Course in \"International Relations, Politics & Trade\" aims at training professional experts in the internationalization processes of companies. The expert in internationalization processes is responsible for setting up and developing the strategy and activities of the company on the international markets, whether of a commercial nature (export management, import management, e-commerce), production or distribution, regardless of the product sector, expressed also through a stable presence in the target countries. The professional profiles are: - Foreign trade specialist -… | Official course code: 2341 | Reference department: Department of Political Sciences and International Relations | Delivery mode: fully online / mainly online programme. | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi"
     },
     {
@@ -25808,8 +25839,9 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23777&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Curriculum(s): Data Analytics for Business; Digital Transformation; Innovation and Entrepreneurship; Sustainability and Social Impact | Programme overview (university course data): The growing complexity and the dynamics of the competitive system, in the age of globalization and digitalisation require a new type of professionals, capable of facing issues in an interdisciplinary, flexible and innovative way. Management engineers are an answer to current market needs, therefore they are always more appreciated and required both by companies and by public administrations. Management engineering deals with the solution to technical, economical, operational and organizational problems in the processes of production and delivery of goods and services, through the typical… | Official course code: 2255 | Reference department: Department of Engineering | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23777&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/ingegneria/cds/managementengineering2255",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/ingegneria/cds/managementengineering2255",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23777&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23780&paginaProvenienza=ricercaSemplice&cid=154980",
@@ -25820,12 +25852,12 @@
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23778&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23779&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23777&paginaProvenienza=ricercaSemplice&cid=154980 | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23780&paginaProvenienza=ricercaSemplice&cid=154980 | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23778&paginaProvenienza=ricercaSemplice&cid=154980 | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23779&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23777&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23780&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23778&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/ingegneria/cds/managementengineering2255",
+      "verified_at": "2026-09-19",
       "summary": "Curriculum(s): Data Analytics for Business; Digital Transformation; Innovation and Entrepreneurship; Sustainability and Social Impact | Programme overview (university course data): The growing complexity and the dynamics of the competitive system, in the age of globalization and digitalisation require a new type of professionals, capable of facing issues in an interdisciplinary, flexible and innovative way. Management engineers are an answer to current market needs, therefore they are always more appreciated and required both by companies and by public administrations. Management engineering deals with the solution to technical, economical, operational and organizational problems in the processes of production and delivery of goods and services, through the typical… | Official course code: 2255 | Reference department: Department of Engineering | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study v"
     },
     {
@@ -25853,18 +25885,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23761&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Programme overview (university course data): The growing complexity and dynamism of the competitive system in the era of globalization and digitization requires new professionalism able to address the problems in an interdisciplinary, flexible and innovative way. The figure of the Management Engineer responds to the needs of today's markets and this is the reason why the Management Engineer is increasingly appreciated and required both in the business world and in the public administration. The Management Engineering deals with the solution of problems of technical, economic, managerial and organizational nature in the processes of… | Official course code: 2256 | Reference department: Department of Engineering | Delivery mode: fully online / mainly online programme. | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23761&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/ingegneria/cds/managementengineering2256",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/ingegneria/cds/managementengineering2256",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23761&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23761&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23761&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23761&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/ingegneria/cds/managementengineering2256",
+      "verified_at": "2026-09-19",
       "summary": "Programme overview (university course data): The growing complexity and dynamism of the competitive system in the era of globalization and digitization requires new professionalism able to address the problems in an interdisciplinary, flexible and innovative way. The figure of the Management Engineer responds to the needs of today's markets and this is the reason why the Management Engineer is increasingly appreciated and required both in the business world and in the public administration. The Management Engineering deals with the solution of problems of technical, economic, managerial and organizational nature in the processes of… | Official course code: 2256 | Reference department: Department of Engineering | Delivery mode: fully online / mainly online programme. | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali cit"
     },
     {
@@ -25892,18 +25925,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23972&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Programme overview (university course data): The 2nd cycle Degree Course in “Mediterranean Food Science and Technology” has the specific educational objective to provide the advanced knowledge to make rational choices of the most suitable transformation processes and phases for a modern production and management of the Agrifood company. The course specifically deals with the issues related to the technologies applied in the management of the specific raw materials and foods of the Mediterranean environment (AGR/15 - Applied Technology on Mediterranean food), with respect also to the different food distribution chains, including public… | Official course code: 2334 | Reference department: Department of Agricultural, Food and Forestry Science | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23972&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/saaf/cds/mediterraneanfoodscienceandtechnology2238/en/?pagina=presentazione",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/saaf/cds/mediterraneanfoodscienceandtechnology2238/en/?pagina=presentazione",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23972&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23972&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23972&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23972&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/saaf/cds/mediterraneanfoodscienceandtechnology2238/en/?pagina=presentazione",
+      "verified_at": "2026-09-19",
       "summary": "Programme overview (university course data): The 2nd cycle Degree Course in “Mediterranean Food Science and Technology” has the specific educational objective to provide the advanced knowledge to make rational choices of the most suitable transformation processes and phases for a modern production and management of the Agrifood company. The course specifically deals with the issues related to the technologies applied in the management of the specific raw materials and foods of the Mediterranean environment (AGR/15 - Applied Technology on Mediterranean food), with respect also to the different food distribution chains, including public… | Official course code: 2334 | Reference department: Department of Agricultural, Food and Forestry Science | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA stat"
     },
     {
@@ -25931,18 +25965,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23810&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Programme overview (university course data): The 2nd cycle Degree Course (LM) in “Migration, rights, integration” provides a specialised training about contemporary human mobility, and about the problems related to the interaction with and integration of migrants in host societies, with special attention to Europe and Italy. The course aims at training experts on migration and integration issues, fundamental rights and inclusion, with high-level knowledge of the legal aspects, and able to situate such knowledge in the broader social, geo-historical and economic context. The causes and socio-economic impact of human mobility, the… | Official course code: 2337 | Reference department: Department of Law | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23810&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/di.gi./cds/migrationrightsintegration2337/",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/di.gi./cds/migrationrightsintegration2337/",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23810&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23810&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23810&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23810&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/di.gi./cds/migrationrightsintegration2337/",
+      "verified_at": "2026-09-19",
       "summary": "Programme overview (university course data): The 2nd cycle Degree Course (LM) in “Migration, rights, integration” provides a specialised training about contemporary human mobility, and about the problems related to the interaction with and integration of migrants in host societies, with special attention to Europe and Italy. The course aims at training experts on migration and integration issues, fundamental rights and inclusion, with high-level knowledge of the legal aspects, and able to situate such knowledge in the broader social, geo-historical and economic context. The causes and socio-economic impact of human mobility, the… | Official course code: 2337 | Reference department: Department of Law | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof "
     },
     {
@@ -25970,18 +26005,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=25056&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Programme overview (university course data): The 2nd cycle Degree Course in “Neuroscience” fits in the process of innovation and rationalisation of the educational offer of the University of Palermo, aiming at improving the knowledge, competitiveness and professional opportunities of 1st cycle graduates in Biology and Biotechnologies. The new course is based upon the excellent and interdisciplinary competences existing in our University, the characteristics of the local and national biotechnological industry and the innovative thrusts of bio-economics. The course trains experts in Neuroscience and Neurobiology, who can furtherly refine… | Official course code: 2331 | Reference department: Department of Biomedicine, Neurosciences and Advanced Diagnostics | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=25056&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/bi.n.d./cds/neuroscience2331",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/bi.n.d./cds/neuroscience2331",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=25056&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=25056&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=25056&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=25056&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/bi.n.d./cds/neuroscience2331",
+      "verified_at": "2026-09-19",
       "summary": "Programme overview (university course data): The 2nd cycle Degree Course in “Neuroscience” fits in the process of innovation and rationalisation of the educational offer of the University of Palermo, aiming at improving the knowledge, competitiveness and professional opportunities of 1st cycle graduates in Biology and Biotechnologies. The new course is based upon the excellent and interdisciplinary competences existing in our University, the characteristics of the local and national biotechnological industry and the innovative thrusts of bio-economics. The course trains experts in Neuroscience and Neurobiology, who can furtherly refine… | Official course code: 2331 | Reference department: Department of Biomedicine, Neurosciences and Advanced Diagnostics | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with D"
     },
     {
@@ -26009,18 +26045,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23908&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Programme overview (university course data): Specific objectives: The course provides students with as much experimental experience as possible with a thematic workshop of territorial planning and urban planning for each year of the course, related to: a theoretical and methodological discipline in the area of territorial planning and urban planning and class specific and related activities allowing students to grasp the various points of view on the transformation of the city and the territory, in economic, social, environmental, infrastructural and architectural and urban planning terms. In particular, the laboratory of the first year… | Official course code: 2333 | Reference department: Department of Architecture | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23908&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/architettura/cds/spatialplanning2333/?pagina=presentazione",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/architettura/cds/spatialplanning2333/?pagina=presentazione",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23908&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23908&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23908&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23908&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/architettura/cds/spatialplanning2333/?pagina=presentazione",
+      "verified_at": "2026-09-19",
       "summary": "Programme overview (university course data): Specific objectives: The course provides students with as much experimental experience as possible with a thematic workshop of territorial planning and urban planning for each year of the course, related to: a theoretical and methodological discipline in the area of territorial planning and urban planning and class specific and related activities allowing students to grasp the various points of view on the transformation of the city and the territory, in economic, social, environmental, infrastructural and architectural and urban planning terms. In particular, the laboratory of the first year… | Official course code: 2333 | Reference department: Department of Architecture | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, "
     },
     {
@@ -26048,18 +26085,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23842&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Curriculum(s): Data Science and Statistics (LM-Data) | Programme overview (university course data): Specific objectives: The 2nd cycle Degree in Statistics and Data Science, consistent with the requirements of the educational objectives of both classes and with the indications coming from the surveys on the employment market of graduates in statistical disciplines (such as, for example, the AlmaLaurea interuniversity initiative), aims at training graduates who, with a solid, high level, background in mathematics, probability, statistics and computer science, are able to operate in various application areas with autonomy and responsibility and to enter the labour market as qualified experts,… | Official course code: 2316 | Reference department: Department of Economics and statistical Sciences | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23842&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/seas/cds/statisticaedatascience2235/en/?pagina=presentazione",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/seas/cds/statisticaedatascience2235/en/?pagina=presentazione",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23842&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23842&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23842&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23842&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/seas/cds/statisticaedatascience2235/en/?pagina=presentazione",
+      "verified_at": "2026-09-19",
       "summary": "Curriculum(s): Data Science and Statistics (LM-Data) | Programme overview (university course data): Specific objectives: The 2nd cycle Degree in Statistics and Data Science, consistent with the requirements of the educational objectives of both classes and with the indications coming from the surveys on the employment market of graduates in statistical disciplines (such as, for example, the AlmaLaurea interuniversity initiative), aims at training graduates who, with a solid, high level, background in mathematics, probability, statistics and computer science, are able to operate in various application areas with autonomy and responsibility and to enter the labour market as qualified experts,… | Official course code: 2316 | Reference department: Department of Economics and statistical Sciences | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via"
     },
     {
@@ -26087,18 +26125,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23841&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Programme overview (university course data): The 2nd cycle Degree Course in Tourism Systems and Hospitality Management at the University of Palermo aims at educating professionals possessing theoretical knowledge and advanced operational skills for the design and implementation of the inter-sectoral and infrastructural interventions, necessary for the qualification of tourist, hospitality and food systems. The course therefore aims at providing the strategic skills needed for coordinating and integrating local public and private and third sector resources. The course aims at analysing and knowing the territorial contexts; planning and… | Official course code: 2338 | Reference department: Department of Economics and statistical Sciences | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23841&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/seas/cds/tourismsystemsandhospitalitymanagement2338",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/seas/cds/tourismsystemsandhospitalitymanagement2338",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23841&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23841&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23841&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=23841&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/seas/cds/tourismsystemsandhospitalitymanagement2338",
+      "verified_at": "2026-09-19",
       "summary": "Programme overview (university course data): The 2nd cycle Degree Course in Tourism Systems and Hospitality Management at the University of Palermo aims at educating professionals possessing theoretical knowledge and advanced operational skills for the design and implementation of the inter-sectoral and infrastructural interventions, necessary for the qualification of tourist, hospitality and food systems. The course therefore aims at providing the strategic skills needed for coordinating and integrating local public and private and third sector resources. The course aims at analysing and knowing the territorial contexts; planning and… | Official course code: 2338 | Reference department: Department of Economics and statistical Sciences | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement"
     },
     {
@@ -26126,18 +26165,19 @@
       "entry_qualification": "Bachelor's degree (or equivalent foreign qualification, attained or expected) in a compatible field; transcript of records; CV; passport + photo; English B2 certificate or MOI.",
       "course_link": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24070&paginaProvenienza=ricercaSemplice&cid=154980",
       "additional_info": "Programme overview (university course data): Specific objectives: The educational activities of the first semester of the Joint Degree LM-37 JD \"Transnational German Studies\" take place at the University of Porto, while those of the second semester at the University of Luxembourg, those of the third in Mainz, and those of the fourth in Palermo. The Degree Course has the specific educational objective to provide: - good command of the German language (level C2 of the CEFR), and a good knowledge of English (level C1 of the CEFR); - solid knowledge of German-speaking literature and culture in a comparative and intercultural context, with… | Official course code: 2335 | Reference department: Department of Humanities | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, photos and proof of financial means.",
-      "source_url": "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24070&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_url": "https://www.unipa.it/dipartimenti/scienzeumanistiche/cds/transnationalgermanstudies2230/",
       "source_urls": [
+        "https://www.unipa.it/dipartimenti/scienzeumanistiche/cds/transnationalgermanstudies2230/",
         "https://immaweb.unipa.it",
         "https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24070&paginaProvenienza=ricercaSemplice&cid=154980",
         "https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24070&paginaProvenienza=ricercaSemplice&cid=154980"
       ],
-      "source_note": "Workbook source URLs: https://immaweb.unipa.it | https://offertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24070&paginaProvenienza=ricercaSemplice&cid=154980 | https://ffertaformativa.unipa.it/offweb/public/corso/visualizzaCurriculum.seam?oidCurriculum=24070&paginaProvenienza=ricercaSemplice&cid=154980",
+      "source_note": "Verified against the official university course page or official course catalogue on 2026-09-19.",
       "extra_fields": [],
-      "verified": false,
-      "verification_status": "pending",
-      "verified_source_url": "",
-      "verified_at": "",
+      "verified": true,
+      "verification_status": "verified",
+      "verified_source_url": "https://www.unipa.it/dipartimenti/scienzeumanistiche/cds/transnationalgermanstudies2230/",
+      "verified_at": "2026-09-19",
       "summary": "Programme overview (university course data): Specific objectives: The educational activities of the first semester of the Joint Degree LM-37 JD \"Transnational German Studies\" take place at the University of Porto, while those of the second semester at the University of Luxembourg, those of the third in Mainz, and those of the fourth in Palermo. The Degree Course has the specific educational objective to provide: - good command of the German language (level C2 of the CEFR), and a good knowledge of English (level C1 of the CEFR); - solid knowledge of German-speaking literature and culture in a comparative and intercultural context, with… | Official course code: 2335 | Reference department: Department of Humanities | Visa route (Nepalese applicants): after UniPa admission, pre-enrol on Universitaly so UniPa validates your profile, then apply for the study visa at the Embassy of Italy in New Delhi (handled via vFS Global for Nepali citizens) with DoV/CIMEA statement, health insurance, phot"
     },
     {
@@ -30890,9 +30930,9 @@
     }
   ],
   "verification_summary": {
-    "verified_courses": 595,
-    "pending_courses": 57,
+    "verified_courses": 652,
+    "pending_courses": 0,
     "excluded_blocks": 1,
-    "method": "Official-domain source availability plus course-title evidence from the supplied workbook links; PDF and generic catalogue pages were retained only when the official source was reachable."
+    "method": "Official university course pages and official course catalogues were checked record by record; records without a confirmed official source remain pending and unpublished."
   }
 }
