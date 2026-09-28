@@ -1,9 +1,18 @@
 import {describe,it,expect} from 'vitest';
 import {renderToStaticMarkup} from 'react-dom/server';
-import {CourseInformation,formatCourseDate,formatCourseDeadline,parseCourseNotes} from './course-details';
+import {CourseInformation,externalUrl,formatCourseDate,formatCourseDeadline,parseCourseNotes} from './course-details';
 import type {Course} from './api';
 
 describe('course details',()=>{
+  it('normalises source links without exposing long URLs in visible labels',()=>{
+    expect(externalUrl('www.example.com/admissions')).toBe('https://www.example.com/admissions');
+    const html=renderToStaticMarkup(<CourseInformation course={{degree:'Bachelor’s degree',discipline:'Animal science',source_url:'https://example.com/official-course',details:[{id:1,key:'entry',label:'Entry qualification',presentation:'section',value:'Secondary diploma',source_url:'https://example.com/requirements',link_label:'Read requirements'}]} as Course}/>);
+    expect(html).toContain('Read requirements');
+    expect(html).toContain('Check source');
+    expect(html).not.toContain('>https://example.com/official-course<');
+    expect(html).not.toContain('>https://example.com/requirements<');
+  });
+
   it('keeps Rome deadlines and date-only study starts independent of the viewer time zone',()=>{
     expect(formatCourseDeadline('2027-03-07T23:59:59+01:00','Europe/Rome')).toBe('7 Mar 2027, 23:59:59');
     expect(formatCourseDeadline('2027-07-07T21:59:59Z','Europe/Rome')).toBe('7 Jul 2027, 23:59:59');

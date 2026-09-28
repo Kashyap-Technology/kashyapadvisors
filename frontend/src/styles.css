@@ -10,6 +10,7 @@ button{cursor:pointer}
 button:disabled{opacity:.6;cursor:wait}
 img{max-width:100%;object-fit:cover}
 svg{flex-shrink:0}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 h1,h2,h3,h4{margin:0;text-wrap:balance}
 h1,h2{font-family:'Playfair Display',Georgia,serif;font-weight:500;letter-spacing:-.045em;line-height:1.12}
 h1{font-size:clamp(42px,5.2vw,76px)}
@@ -513,6 +514,59 @@ td,th{padding:16px;border-bottom:1px solid var(--border);min-width:135px}
  .button:active,button:active{transform:none}
 }
 
+/* Student portal: focused, private workspace surfaces. */
+.portal-page{padding-block:56px 96px}
+.portal-entry{max-width:760px;margin:24px auto 0;padding:72px 56px;border:1px solid var(--border);border-radius:24px;background:linear-gradient(135deg,#f4f8f1 0%,#fffdf8 72%);box-shadow:0 18px 50px rgba(31,70,53,.08);text-align:center}
+.portal-mark{display:grid;place-items:center;width:52px;height:52px;margin-bottom:22px;border-radius:16px;background:var(--green);color:white;box-shadow:0 10px 22px rgba(31,70,53,.2)}
+.portal-entry>.portal-mark{margin-inline:auto}
+.portal-entry h1,.portal-auth-intro h1,.portal-welcome h1{max-width:700px;margin:14px 0 18px;font-size:clamp(38px,5vw,64px);line-height:1.02;text-wrap:balance}
+.portal-entry>p{max-width:590px;margin:0 auto 30px;color:var(--muted);font-size:17px;line-height:1.75;text-wrap:pretty}
+.portal-entry-points,.portal-trust{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-top:34px;color:var(--muted);font-size:13px}
+.portal-entry-points span,.portal-trust span{display:inline-flex;align-items:center;gap:7px}
+.portal-entry-points svg,.portal-trust svg{color:var(--green)}
+.portal-auth-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,480px);align-items:center;gap:72px;max-width:1080px;margin:24px auto 0}
+.portal-auth-intro{padding-block:22px}
+.portal-auth-intro p{max-width:520px;color:var(--muted);font-size:17px;line-height:1.75;text-wrap:pretty}
+.portal-trust{justify-content:flex-start;margin-top:30px}
+.portal-card{min-width:0;padding:28px;border:1px solid var(--border);border-radius:16px;background:white;box-shadow:0 12px 30px rgba(31,70,53,.06)}
+.portal-auth-card{padding:34px}
+.portal-card-heading{margin-bottom:24px}
+.portal-kicker{display:block;margin-bottom:7px;color:var(--green);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.portal-card-heading h2,.portal-section-heading h2{margin:0 0 10px;font-size:28px;text-wrap:balance}
+.portal-card-heading p,.portal-section-heading p{margin:0;color:var(--muted);line-height:1.7;text-wrap:pretty}
+.portal-form{display:grid;gap:16px}
+.portal-form label{display:grid;gap:7px;color:var(--ink);font-size:13px;font-weight:600}
+.portal-form label>svg{display:inline-block;margin-right:5px;vertical-align:-3px;color:var(--green)}
+.portal-form input,.portal-form select,.portal-form textarea{width:100%;min-height:46px;margin:0;padding:11px 13px;border:1px solid #d4ded6;border-radius:8px;background:#fff;color:var(--ink);font:inherit;font-size:14px;font-weight:400;outline:none}
+.portal-form textarea{min-height:92px;resize:vertical}
+.portal-form input:focus,.portal-form select:focus,.portal-form textarea:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(31,70,53,.12)}
+.portal-form small{display:block;color:var(--muted);font-size:12px;font-weight:400;line-height:1.5}
+.portal-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.portal-submit{width:100%;justify-content:center;margin-top:4px}
+.portal-switch{margin:22px 0 0;text-align:center;color:var(--muted);font-size:14px}
+.portal-switch a{color:var(--green);font-weight:700}
+.portal-privacy{margin:22px 0 0;color:var(--muted);font-size:11px;line-height:1.6;text-align:center}
+.portal-notice{display:flex;align-items:flex-start;gap:8px;margin:18px 0;padding:12px 14px;border-radius:8px;font-size:13px;line-height:1.5}
+.portal-notice.error{background:#fff1ed;color:#9f3f2d}.portal-notice.success{background:#edf7ef;color:var(--green)}
+.portal-loading{display:grid;place-items:center;min-height:55vh;color:var(--muted)}
+.portal-loading .portal-mark{margin:0 auto 14px}
+.portal-shell{display:grid;grid-template-columns:220px minmax(0,1fr);gap:38px;align-items:start}
+.portal-sidebar{position:sticky;top:28px;display:flex;flex-direction:column;min-height:590px;padding:18px 12px;border:1px solid var(--border);border-radius:16px;background:#f5f8f3}
+.portal-sidebar-brand{display:flex;align-items:center;gap:10px;padding:8px 10px;color:var(--ink);font:700 13px/1.25 'Playfair Display',Georgia,serif;text-decoration:none}
+.portal-sidebar-brand img{width:44px;height:44px;object-fit:contain}.portal-sidebar-brand small{display:block;margin-top:3px;color:var(--muted);font:600 10px/1.3 'DM Sans',Arial,sans-serif;letter-spacing:.05em;text-transform:uppercase}
+.portal-sidebar nav{display:grid;gap:5px;margin-top:32px}.portal-sidebar nav a,.portal-signout{display:flex;align-items:center;gap:10px;min-height:44px;padding:10px 12px;border:0;border-radius:8px;background:transparent;color:var(--muted);font:600 13px/1.2 'DM Sans',Arial,sans-serif;text-decoration:none;text-align:left;cursor:pointer}.portal-sidebar nav a:hover,.portal-sidebar nav a.active,.portal-signout:hover{background:white;color:var(--green)}
+.portal-signout{margin-top:auto;width:100%}
+.portal-main{min-width:0}.portal-welcome{display:flex;align-items:flex-end;justify-content:space-between;gap:28px;margin:12px 0 34px}.portal-welcome h1{font-size:clamp(32px,4vw,52px)}.portal-welcome p{max-width:620px;color:var(--muted);line-height:1.7}
+.portal-dashboard-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.portal-progress-card{display:grid;grid-template-columns:minmax(0,1fr);gap:28px}.portal-profile-mini{display:flex;align-items:center;gap:13px}.portal-avatar{display:grid;place-items:center;width:52px;height:52px;border-radius:50%;background:var(--green);color:white;font:700 21px/1 'Playfair Display',Georgia,serif}.portal-profile-mini strong{display:block;font-size:16px}.portal-profile-mini small{display:block;margin-top:4px;color:var(--muted);font-size:13px;text-transform:capitalize}.portal-completion>div:first-child{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:13px}.portal-completion strong{color:var(--green);font-size:22px;font-variant-numeric:tabular-nums}.portal-progress{height:8px;margin:12px 0 15px;overflow:hidden;border-radius:999px;background:#e6eee7}.portal-progress span{display:block;height:100%;border-radius:inherit;background:var(--red);transition:width .25s ease}.portal-checklist-summary{display:flex;align-items:center;gap:18px}.portal-progress-ring{display:grid;place-items:center;width:74px;height:74px;flex-shrink:0;border:7px solid #dce9dd;border-right-color:var(--green);border-radius:50%;color:var(--green)}.portal-progress-ring strong{font-size:21px;line-height:1}.portal-progress-ring span{font-size:10px;color:var(--muted)}.portal-checklist-summary h3{margin:2px 0 4px;font-size:19px}.portal-checklist-summary p{margin:0;color:var(--muted);font-size:13px;line-height:1.5}.portal-card-link{display:flex;align-items:center;justify-content:space-between;margin-top:25px;padding-top:16px;border-top:1px solid var(--border);color:var(--green);font-size:13px;font-weight:700;text-decoration:none}.portal-card-link svg{transition:transform .18s ease}.portal-card-link:hover svg{transform:translateX(3px)}
+.portal-section{margin-top:58px}.portal-section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:22px}.portal-count{color:var(--muted);font-size:13px}.portal-recommendation-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.portal-choice-card{padding:26px;border:1px solid var(--border);border-radius:14px;background:var(--wash)}.portal-choice-card.featured{background:#f4f8f1;border-color:#c2d5c5}.portal-choice-icon{display:grid;place-items:center;width:42px;height:42px;margin-bottom:20px;border-radius:12px;background:white;color:var(--green)}.portal-choice-card h3{margin:0 0 9px;font-size:22px}.portal-choice-card p{min-height:48px;margin:0 0 22px;color:var(--muted);font-size:14px;line-height:1.65}.portal-choice-card small{display:block;margin-top:12px;color:var(--muted);font-size:12px}
+.portal-recommendation-result{padding:22px;border:1px solid var(--border);border-radius:12px;background:white}.portal-recommendation-result+.portal-recommendation-result{margin-top:12px}.portal-recommendation-result-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}.portal-recommendation-result-heading h3{margin:0;font-size:19px}.portal-result-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:20px}.portal-result-card{padding:16px;border:1px solid var(--border);border-radius:9px;background:var(--wash)}.portal-result-card>div{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}.portal-result-card strong{font-size:15px}.portal-result-card span{flex-shrink:0;color:var(--green);font-size:11px;font-weight:700}.portal-result-card p{margin:9px 0 0;color:var(--muted);font-size:13px;line-height:1.6}.portal-result-apply{display:inline-flex;align-items:center;gap:7px;margin-top:13px;padding:8px 0;border:0;background:transparent;color:var(--green);font-size:12px;font-weight:700;cursor:pointer}.portal-result-apply:disabled{opacity:.55;cursor:wait}.portal-result-apply svg{transition:transform .18s ease}.portal-result-apply:hover svg{transform:translateX(3px)}.portal-muted{margin:18px 0 0;color:var(--muted);font-size:13px}
+.portal-application{display:grid;grid-template-columns:minmax(190px,.7fr) minmax(0,1fr) auto;align-items:center;gap:22px;margin-top:12px;padding:22px;border:1px solid var(--border);border-radius:12px;background:white}.portal-application h3{margin:0 0 4px;font-size:18px}.portal-application p{margin:0;color:var(--muted);font-size:13px}.portal-stage-row{display:flex;gap:10px;flex-wrap:wrap}.portal-stage{display:inline-flex;align-items:center;gap:5px;color:#a6afa8;font-size:11px}.portal-stage i{display:block;width:8px;height:8px;border:1px solid currentColor;border-radius:50%}.portal-stage.complete{color:var(--green)}.portal-stage.complete i{background:var(--green)}.portal-stage.current{color:var(--red);font-weight:700}.portal-stage.current i{background:var(--red);border-color:var(--red)}.portal-stage.blocked{color:#b44c37;font-weight:700}.portal-status{padding:7px 10px;border-radius:999px;background:var(--wash);color:var(--green);font-size:11px;white-space:nowrap;text-transform:capitalize}.portal-status.more_information,.portal-status.rejected{background:#fff1ed;color:#9f3f2d}
+.portal-empty{display:grid;place-items:center;padding:38px 20px;border:1px dashed #bdcdbf;border-radius:12px;color:var(--muted);text-align:center}.portal-empty svg{color:var(--green)}.portal-empty h3{margin:12px 0 6px;color:var(--ink);font-size:17px}.portal-empty p{margin:0;font-size:13px;line-height:1.6}
+.portal-form-card{max-width:920px}.portal-form-section{margin-top:30px;padding-top:28px;border-top:1px solid var(--border)}.portal-form-section h3{margin:0 0 18px;font-size:20px}.portal-form-section>label{margin-top:16px}.portal-form-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:32px;padding-top:24px;border-top:1px solid var(--border)}
+.portal-documents-layout{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:16px}.portal-file-picked{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid #c2d5c5;border-radius:8px;background:#f4f8f1;color:var(--green);font-size:13px}.portal-file-picked small{display:block}.portal-document-list{display:grid;gap:10px}.portal-document{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:11px;padding:12px;border:1px solid var(--border);border-radius:8px}.portal-document-icon{display:grid;place-items:center;width:34px;height:34px;border-radius:8px;background:var(--wash);color:var(--green)}.portal-document-icon.rejected{background:#fff1ed;color:#9f3f2d}.portal-document strong{display:block;overflow-wrap:anywhere;font-size:13px}.portal-document small{display:block;margin-top:4px;color:var(--muted);font-size:11px;text-transform:capitalize}.portal-document p{margin:5px 0 0;color:#9f3f2d;font-size:12px}.portal-checklist-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.portal-checklist-item{display:flex;gap:11px;padding:17px;border:1px solid var(--border);border-radius:10px;background:white}.portal-checklist-item>span{color:#a6afa8}.portal-checklist-item.verified>span{color:var(--green)}.portal-checklist-item.rejected>span{color:var(--red)}.portal-checklist-item strong{display:block;font-size:14px}.portal-checklist-item em{margin-left:7px;color:var(--red);font-size:10px;font-style:normal;font-weight:700;text-transform:uppercase}.portal-checklist-item p{margin:7px 0;color:var(--muted);font-size:12px;line-height:1.5}.portal-checklist-item small{color:var(--green);font-size:11px;text-transform:capitalize}.portal-admin-note{color:#9f3f2d!important}
+@media(max-width:900px){.portal-auth-layout{grid-template-columns:1fr;gap:24px}.portal-auth-intro{padding-bottom:0}.portal-shell{grid-template-columns:1fr}.portal-sidebar{position:static;min-height:0}.portal-sidebar nav{grid-template-columns:repeat(3,1fr);margin-top:18px}.portal-sidebar nav a{justify-content:center}.portal-signout{margin-top:12px;justify-content:center}.portal-application{grid-template-columns:1fr}.portal-status{justify-self:start}}
+@media(max-width:700px){.portal-page{padding-block:32px 64px}.portal-entry{padding:44px 22px}.portal-entry .button-row{flex-direction:column}.portal-entry .button{width:100%;justify-content:center}.portal-auth-layout{display:block}.portal-auth-intro h1{font-size:42px}.portal-auth-card{margin-top:25px;padding:22px}.portal-form-grid,.portal-dashboard-grid,.portal-recommendation-grid,.portal-documents-layout,.portal-checklist-grid,.portal-result-grid{grid-template-columns:1fr}.portal-welcome{display:block}.portal-welcome .button{margin-top:18px}.portal-section-heading{display:block}.portal-recommendation-result-heading{display:block}.portal-recommendation-result-heading .portal-status{display:inline-block;margin-top:12px}.portal-form-actions{display:grid;grid-template-columns:1fr}.portal-form-actions .button{justify-content:center}.portal-sidebar nav a{font-size:0}.portal-sidebar nav a svg{width:19px;height:19px}.portal-sidebar nav{grid-template-columns:repeat(3,1fr)}}
+
 /* Course catalog: clear facts, separate application rounds, readable requirements. */
 .course-overview-panel{margin-top:18px;padding:30px;background:var(--wash);border:1px solid var(--border);border-radius:10px}
 .course-overview-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:18px}
@@ -525,13 +579,27 @@ td,th{padding:16px;border-bottom:1px solid var(--border);min-width:135px}
 .course-prose{white-space:pre-line;overflow-wrap:anywhere;text-wrap:pretty}
 .course-facts .course-prose{margin:0}
 .course-facts .text-link{margin-top:10px}
+.course-verification-note{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin:18px 0 0;padding:12px 14px;border:1px solid #c7dccb;border-radius:8px;background:#f4f8f1;color:var(--green);font-size:13px}
+.course-verification-note>svg{flex-shrink:0}
+.course-verification-note strong{margin-right:4px}
+.course-verification-note .course-source-button{margin-left:auto}
+.course-source-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:40px;padding:9px 13px;border:1px solid #b9cbbd;border-radius:6px;background:white;color:var(--green);font-size:13px;font-weight:700;text-decoration:none;transition-property:background-color,border-color,box-shadow,transform;transition-duration:180ms}
+.course-source-button:hover{border-color:var(--green);background:var(--wash);box-shadow:0 4px 12px rgba(31,70,53,.08)}
+.inline-source-link{display:inline-flex;align-items:center;margin-inline:3px;padding:2px 7px;border-radius:4px;background:#edf5ee;color:var(--green);font-size:.92em;font-weight:700;text-decoration:none}
+.inline-source-link:hover{text-decoration:underline}
 .course-requirements,.course-admissions{margin-top:56px}
 .course-section-heading{max-width:650px;margin-bottom:24px}
 .course-section-heading h2,.course-admissions h2{font-size:34px;text-wrap:balance;margin:10px 0 12px}
 .course-section-heading p{color:var(--muted);font-size:17px}
+.requirements-summary{display:flex;flex-wrap:wrap;gap:10px 18px;margin:-6px 0 18px;color:var(--muted);font-size:13px}
+.requirements-summary span{display:inline-flex;align-items:center;gap:6px}
+.requirements-summary span:first-child{color:var(--green);font-weight:700}
 .course-requirements-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
 .course-text-card{padding:22px;background:white;border:1px solid var(--border);border-radius:8px;box-shadow:0 8px 24px rgba(31,70,53,.05)}
 .course-text-card h3{font-size:20px;margin-bottom:12px;text-wrap:balance}
+.course-empty-state{padding:28px;background:var(--wash);border:1px dashed #b9cbbd;border-radius:10px}
+.course-empty-state .course-section-heading{margin-bottom:16px}
+.course-empty-state>svg{color:var(--green)}
 .course-link-card{display:flex;flex-direction:column;justify-content:space-between;gap:18px;background:var(--wash)}
 .course-notes{margin-top:64px}
 .course-notes-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
@@ -552,10 +620,9 @@ td,th{padding:16px;border-bottom:1px solid var(--border);min-width:135px}
 .course-contact span{font-size:13px;font-weight:600;line-height:1.45}
 .course-contact strong{color:var(--green);font-size:13px;overflow-wrap:anywhere}
 .course-contact:hover{border-color:var(--green);background:white}
-.course-official-link{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:3px 12px;padding:12px 14px;border:1px solid var(--border);border-radius:6px;background:white;color:var(--ink);text-decoration:none}
-.course-official-link span{font-size:14px;font-weight:600;line-height:1.4}
-.course-official-link small{grid-column:1;color:var(--muted);overflow-wrap:anywhere}
-.course-official-link svg{grid-column:2;grid-row:1 / span 2;color:var(--green)}
+.course-official-link{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px;border:1px solid var(--border);border-radius:6px;background:white;color:var(--ink)}
+.course-official-link>span{display:grid;gap:3px;min-width:0;font-size:14px;font-weight:600;line-height:1.4}
+.course-official-link small{color:var(--muted);overflow-wrap:anywhere;font-size:12px;font-weight:400}
 .course-official-link:hover{border-color:var(--green);background:var(--wash)}
 .admission-call{padding:28px;margin-top:24px;background:var(--wash);border:1px solid var(--border);border-radius:8px}
 .admission-call .eyebrow{margin-bottom:12px}
@@ -565,12 +632,26 @@ td,th{padding:16px;border-bottom:1px solid var(--border);min-width:135px}
 .admission-dates dd{margin-top:6px;font-weight:600}
 .admission-dates small{display:block;font-weight:400;color:var(--muted);margin-top:4px}
 .department-card{margin-block:24px;padding:28px;border:1px solid var(--border);border-radius:8px}
+.department-summary{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;cursor:pointer;list-style:none}
+.department-summary::-webkit-details-marker{display:none}
+.department-summary>svg{flex-shrink:0;color:var(--green);transition:transform 180ms ease}
+.department-card[open] .department-summary>svg{transform:rotate(180deg)}
 .department-heading{display:flex;align-items:flex-start;gap:12px}
 .department-heading svg{flex-shrink:0;margin-top:4px;color:var(--green)}
-.department-heading h3{margin:0 0 16px;text-wrap:balance}
+.department-heading h3{margin:0 0 5px;text-wrap:balance}
+.department-heading small{color:var(--muted);font-size:12px}
+.department-content{padding-top:20px}
 .department-card .list-card:last-child{margin-bottom:0}
 .course-department{border-block:1px solid var(--border);padding-block:24px;margin-block:24px}
 .course-department h3{font-size:20px;margin-block:12px}
+.course-directory-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 24px}
+.course-search{display:flex;align-items:center;gap:10px;max-width:520px;flex:1;min-height:48px;padding:0 14px;border:1px solid var(--border);border-radius:8px;background:white;color:var(--muted);box-shadow:0 6px 18px rgba(31,70,53,.04)}
+.course-search:focus-within{border-color:var(--green);box-shadow:0 0 0 3px rgba(31,95,56,.12)}
+.course-search input{width:100%;min-width:0;border:0;outline:0;background:transparent;font-size:14px}
+.course-list-count{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.department-directory>.course-empty-state{text-align:center}
+.department-directory>.course-empty-state h3{margin:10px 0 6px}
+.department-directory>.course-empty-state p{margin:0;color:var(--muted)}
 @media(max-width:700px){
  .course-overview-panel{padding:20px}
  .course-overview-heading{display:block}
@@ -582,6 +663,12 @@ td,th{padding:16px;border-bottom:1px solid var(--border);min-width:135px}
  .course-notes-grid{grid-template-columns:1fr}
  .course-note-card-wide{grid-column:auto}
  .course-note-list{grid-template-columns:1fr}
+ .course-directory-toolbar{display:block}
+ .course-list-count{display:block;margin-top:10px}
+ .course-verification-note{align-items:flex-start}
+ .course-verification-note .course-source-button{width:100%;margin:2px 0 0}
+ .course-official-link{align-items:flex-start;flex-direction:column}
+ .course-official-link .course-source-button{width:100%}
  .course-section-heading h2,.course-admissions h2{font-size:28px}
  .official-updates{padding-block:48px}
  .official-updates-head{display:block}

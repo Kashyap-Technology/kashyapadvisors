@@ -1,8 +1,8 @@
 import {Link} from '@tanstack/react-router';
 import type {ReactNode} from 'react';
-import {ArrowUpRight,Building2,ExternalLink,FileText,Mail,School} from 'lucide-react';
+import {ArrowUpRight,Building2,CheckCircle2,ChevronDown,ExternalLink,FileText,Mail,School,Search} from 'lucide-react';
 import type {Course,Department,CourseDetailField} from './api';
-import {safeUrl} from './api';
+import {useMemo,useState} from 'react';
 
 type CourseNote={label:string;value:string};
 type CourseContact={label:string;email:string};
@@ -12,6 +12,22 @@ const urlPattern=/https?:\/\/[^\s|]+/gi;
 const emailPattern=/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi;
 
 function trimToken(value:string){return value.replace(/[.,;:)}\]]+$/,'');}
+
+export function externalUrl(value:string){
+  const candidate=trimToken(value.trim());
+  if(/^https?:\/\//i.test(candidate))return candidate;
+  return /^[\w.-]+\.[a-z]{2,}(\/|$)/i.test(candidate)?`https://${candidate}`:'';
+}
+
+function sourceHost(value:string){
+  try{return new URL(externalUrl(value)).hostname.replace(/^www\./,'');}catch{return '';}
+}
+
+function SourceButton({url,label='Open official source'}:{url:string;label?:string}){
+  const href=externalUrl(url);
+  if(!href)return null;
+  return <a className="course-source-button" href={href} target="_blank" rel="noreferrer"><span>{label}</span><ExternalLink size={15}/></a>;
+}
 
 function LinkedText({text}:{text:string}){
   const tokens=[...text.matchAll(/https?:\/\/[^\s|]+|[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi)];
@@ -24,8 +40,8 @@ function LinkedText({text}:{text:string}){
     const start=match.index||0;
     const trailing=raw.slice(token.length);
     if(start>cursor)parts.push(text.slice(cursor,start));
-    const href=token.includes('@')&&!token.startsWith('http')?`mailto:${token}`:safeUrl(token);
-    parts.push(<a key={`${token}-${index}`} href={href} target={href.startsWith('http')?'_blank':undefined} rel={href.startsWith('http')?'noreferrer':undefined}>{token}</a>);
+    const href=token.includes('@')&&!token.startsWith('http')?`mailto:${token}`:externalUrl(token);
+    parts.push(href?<a className="inline-source-link" key={`${token}-${index}`} href={href} target={href.startsWith('http')?'_blank':undefined} rel={href.startsWith('http')?'noreferrer':undefined}>{href.startsWith('http')?'Official source':token}</a>:token);
     if(trailing)parts.push(trailing);
     cursor=start+raw.length;
   });
@@ -92,7 +108,7 @@ export function courseLead(course:Course){
 }
 
 function FieldContent({field}:{field:CourseDetailField}){
-  return <><p className="course-prose"><LinkedText text={field.value}/></p>{field.source_url&&<a className="text-link" href={safeUrl(field.source_url)} target="_blank" rel="noreferrer">{field.link_label||'Further information'}<ExternalLink size={15}/></a>}</>;
+  return <><p className="course-prose"><LinkedText text={field.value}/></p>{field.source_url&&<SourceButton url={field.source_url} label={field.link_label||'Further information'}/>}</>;
 }
 
 export function formatCourseDate(value:string){
@@ -115,7 +131,7 @@ function CourseNotes({course}:{course:Course}){
     <div className="course-notes-grid">
       {!!parsed.notes.length&&<article className="course-note-card course-note-card-wide"><div className="course-note-heading"><span className="course-note-icon"><School size={18}/></span><div><span className="course-note-kicker">Read carefully</span><h3>Key programme notes</h3></div></div><ul className="course-note-list">{parsed.notes.map((note,index)=><li key={`${note.label}-${index}`}><strong>{note.label}</strong><p><LinkedText text={note.value}/></p></li>)}</ul></article>}
       {!!parsed.contacts.length&&<article className="course-note-card"><div className="course-note-heading"><span className="course-note-icon"><Mail size={18}/></span><div><span className="course-note-kicker">Need clarification?</span><h3>Programme contacts</h3></div></div><div className="course-contact-list">{parsed.contacts.map((contact,index)=><a className="course-contact" href={`mailto:${contact.email}`} key={`${contact.email}-${index}`}><span>{contact.label}</span><strong>{contact.email}</strong></a>)}</div></article>}
-      {!!links.length&&<article className="course-note-card course-link-card"><div className="course-note-heading"><span className="course-note-icon"><FileText size={18}/></span><div><span className="course-note-kicker">Official sources</span><h3>Documents & websites</h3></div></div><div className="course-official-links">{links.map((link,index)=><a className="course-official-link" href={safeUrl(link.url)} target="_blank" rel="noreferrer" key={`${link.url}-${index}`}><span>{link.label}</span><small>{link.url.replace(/^https?:\/\//,'').split('/')[0].replace(/^www\./,'')}</small><ExternalLink size={15}/></a>)}</div></article>}
+      {!!links.length&&<article className="course-note-card course-link-card"><div className="course-note-heading"><span className="course-note-icon"><FileText size={18}/></span><div><span className="course-note-kicker">Official sources</span><h3>Documents & websites</h3></div></div><div className="course-official-links">{links.map((link,index)=><div className="course-official-link" key={`${link.url}-${index}`}><span><strong>{link.label}</strong><small>{sourceHost(link.url)}</small></span><SourceButton url={link.url} label="Open"/></div>)}</div></article>}
       {!!parsed.context.length&&<article className="course-note-card"><div className="course-note-heading"><span className="course-note-icon"><Building2 size={18}/></span><div><span className="course-note-kicker">Academic structure</span><h3>School & programme context</h3></div></div>{parsed.context.map((text,index)=><p className="course-prose" key={`${text}-${index}`}><LinkedText text={text}/></p>)}</article>}
     </div>
   </section>;
@@ -135,6 +151,7 @@ export function CourseInformation({course}:{course:Course}){
   return <>
     <section className="course-overview-panel">
       <div className="course-overview-heading"><div><span className="content-kind official">Programme snapshot</span><h2>Everything important, at a glance.</h2></div><span className="course-degree-pill">{course.course_type||course.degree||'Degree programme'}</span></div>
+      <div className="course-verification-note"><CheckCircle2 size={17}/><span><strong>Official source reviewed</strong>{course.reviewed_at?` ${formatCourseDate(course.reviewed_at)}.`:' for this programme.'}</span>{course.source_url&&<SourceButton url={course.source_url} label="Check source"/>}</div>
       <dl className="course-facts">
         {course.discipline&&<div><dt>Discipline</dt><dd>{course.discipline}</dd></div>}
         {fixedFacts.map(([label,value])=><div key={label}><dt>{label}</dt><dd><p className="course-prose">{value}</p></dd></div>)}
@@ -150,20 +167,25 @@ export function CourseInformation({course}:{course:Course}){
         {call.available_places!==null&&<div><dt>Available places</dt><dd>{call.available_places}</dd></div>}
       </dl>
       {call.instructions&&<p className="course-prose">{call.instructions}</p>}
-      {call.source_url&&<a className="text-link" href={safeUrl(call.source_url)} target="_blank" rel="noreferrer">Read the official call<ExternalLink size={15}/></a>}
+      {call.source_url&&<SourceButton url={call.source_url} label="Read official call"/>}
     </article>)}</section>}
     {!course.admission_calls?.length&&course.deadline&&<p>Application deadline: <time dateTime={course.deadline}>{formatCourseDate(course.deadline)}</time></p>}
-    {(course.studies_commence||fixedSections.length||details.some(f=>f.presentation==='section'))&&<section className="course-requirements"><div className="course-section-heading"><span className="content-kind">Before you apply</span><h2>Requirements & next steps</h2><p>Review the programme requirements carefully, then confirm the current call on the official university website.</p></div><div className="course-requirements-grid">
+    {(course.studies_commence||fixedSections.length||details.some(f=>f.presentation==='section'))&&<section className="course-requirements"><div className="course-section-heading"><span className="content-kind">Before you apply</span><h2>Requirements & next steps</h2><p>Review the programme requirements carefully, then confirm the current call on the official university website.</p></div><div className="requirements-summary"><span><CheckCircle2 size={15}/> {fixedSections.length+details.filter(f=>f.presentation==='section').length} requirement areas listed</span><span>Always confirm the latest call</span></div><div className="course-requirements-grid">
       {course.studies_commence&&<article className="course-text-card"><h3>Studies commence</h3><p className="course-prose"><time dateTime={course.studies_commence}>{formatCourseDate(course.studies_commence)}</time></p></article>}
-      {fixedSections.map(([heading,body])=><article className="course-text-card" key={heading}><h3>{heading}</h3><p className="course-prose">{body}</p></article>)}
+      {fixedSections.map(([heading,body])=><article className="course-text-card" key={heading}><h3>{heading}</h3><p className="course-prose"><LinkedText text={body}/></p></article>)}
       {details.filter(f=>f.presentation==='section').map(field=><article className="course-text-card" key={field.id}><h3>{field.label}</h3><FieldContent field={field}/></article>)}
     </div></section>}
+    {!course.studies_commence&&!fixedSections.length&&!details.some(f=>f.presentation==='section')&&<section className="course-requirements course-empty-state"><div className="course-section-heading"><span className="content-kind">Before you apply</span><h2>Requirements need a final check.</h2><p>This catalogue record does not include the programme’s detailed requirements yet. Use the official programme page for the current entry, language and selection conditions.</p></div><SourceButton url={course.source_url||course.course_link} label="Check official requirements"/></section>}
     <CourseNotes course={course}/>
   </>;
 }
 
 export function UniversityDepartments({departments,courses}:{departments:Department[];courses:Course[]}){
-  const unassigned=courses.filter(course=>!course.department);
+  const [query,setQuery]=useState('');
+  const normalized=query.trim().toLowerCase();
+  const filtered=useMemo(()=>courses.filter(course=>!normalized||`${course.title} ${course.degree} ${course.discipline}`.toLowerCase().includes(normalized)),[courses,normalized]);
+  const [expanded,setExpanded]=useState<Record<number,boolean>>({});
+  const unassigned=filtered.filter(course=>!course.department);
   const courseLink=(course:Course)=><Link className="list-card" to={'/courses/'+course.slug} key={course.id}><span>{course.title}<small>{course.degree} · {course.discipline}</small></span><ArrowUpRight size={18}/></Link>;
-  return <>{departments.map(department=><section className="department-card" key={department.id}><div className="department-heading"><Building2 size={23}/><h3>{department.title}</h3></div>{department.address&&<p className="course-prose">{department.address}</p>}{department.description&&<p className="course-prose">{department.description}</p>}{department.website&&<a className="text-link" href={safeUrl(department.website)} target="_blank" rel="noreferrer">Department website<ExternalLink size={15}/></a>}{courses.filter(course=>course.department===department.id).map(courseLink)}</section>)}{unassigned.map(courseLink)}</>;
+  return <div className="department-directory"><div className="course-directory-toolbar"><label className="course-search"><Search size={17}/><span className="sr-only">Search programmes</span><input value={query} onChange={event=>setQuery(event.target.value)} placeholder="Search programmes or subjects" /></label><span className="course-list-count">{filtered.length} programme{filtered.length===1?'':'s'}</span></div>{departments.map(department=>{const departmentCourses=filtered.filter(course=>course.department===department.id);if(!departmentCourses.length)return null;const isOpen=Boolean(expanded[department.id])||Boolean(normalized);return <details className="department-card" key={department.id} open={isOpen} onToggle={event=>setExpanded(current=>({...current,[department.id]:(event.currentTarget as HTMLDetailsElement).open}))}><summary className="department-summary"><div className="department-heading"><Building2 size={23}/><span><h3>{department.title}</h3><small>{departmentCourses.length} programme{departmentCourses.length===1?'':'s'}</small></span></div><ChevronDown size={20}/></summary><div className="department-content">{department.address&&<p className="course-prose">{department.address}</p>}{department.description&&<p className="course-prose">{department.description}</p>}{department.website&&<SourceButton url={department.website} label="Department website"/>}{departmentCourses.map(courseLink)}</div></details>})}{unassigned.length>0&&<section className="department-card"><div className="department-heading"><Building2 size={23}/><span><h3>Other programmes</h3><small>{unassigned.length} programme{unassigned.length===1?'':'s'}</small></span></div>{unassigned.map(courseLink)}</section>}{!filtered.length&&<div className="course-empty-state"><Search size={22}/><h3>No programmes match that search.</h3><p>Try a subject, degree level or a shorter programme name.</p></div>}</div>;
 }
