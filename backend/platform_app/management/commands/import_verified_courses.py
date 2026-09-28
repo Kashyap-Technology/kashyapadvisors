@@ -1,4 +1,5 @@
 import json
+import re
 from collections import defaultdict
 from datetime import date
 from pathlib import Path
@@ -11,6 +12,21 @@ from platform_app.models import Country, Course, CourseFieldValue, Department, R
 
 
 DATA_PATH = Path(__file__).resolve().parents[2] / 'data' / 'italy_courses.json'
+URL_TOKEN = re.compile(r'(?:https?://)?(?:[a-z0-9-]+\.)+[a-z]{2,}(?:/[^\s|]*)?', re.IGNORECASE)
+
+
+def normalize_link_field(value):
+    """Store URLField imports as clean, clickable URLs rather than workbook prose."""
+    links = []
+    for token in URL_TOKEN.findall(value or ''):
+        token = token.rstrip('.,;:)]}')
+        if token.lower() == 'link':
+            continue
+        if not token.lower().startswith(('http://', 'https://')):
+            token = f'https://{token}'
+        if token not in links:
+            links.append(token)
+    return ' | '.join(links)
 
 
 class Command(BaseCommand):
@@ -119,8 +135,8 @@ class Command(BaseCommand):
                 'language_requirements': item.get('language_requirements', ''),
                 'other_requirements': item.get('other_requirements', ''),
                 'entry_qualification': item.get('entry_qualification', ''),
-                'more_information': item.get('more_information', '')[:10000],
-                'course_link': item.get('course_link', '')[:10000],
+                'more_information': normalize_link_field(item.get('more_information', ''))[:10000],
+                'course_link': normalize_link_field(item.get('course_link', ''))[:10000],
                 'additional_info': item.get('additional_info', ''),
                 'source_url': source_url,
                 'reviewed_at': reviewed_at,

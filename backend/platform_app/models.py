@@ -14,7 +14,10 @@ class Content(models.Model):
     published = models.BooleanField(default=False)
     order = models.PositiveIntegerField(default=0)
     updated_at = models.DateTimeField(auto_now=True)
-    source_url = models.URLField(blank=True)
+    # Official URLs can include long course-specific paths and query strings.
+    # SQLite does not enforce URLField's default 200-character limit, so keep
+    # the production PostgreSQL schema wide enough for verified source links.
+    source_url = models.URLField(max_length=500, blank=True)
     reviewed_at = models.DateField(null=True,blank=True)
     class Meta:
         abstract = True
@@ -159,9 +162,9 @@ class Course(Content):
     language_requirements = models.TextField(blank=True)
     other_requirements = models.TextField(blank=True)
     studies_commence = models.DateField(null=True,blank=True)
-    more_information = models.URLField(blank=True)
+    more_information = models.URLField(max_length=1000, blank=True)
     entry_qualification = models.TextField(blank=True)
-    course_link = models.URLField(blank=True)
+    course_link = models.URLField(max_length=1000, blank=True)
     additional_info = models.TextField(blank=True)
 
     def clean(self):
@@ -198,7 +201,7 @@ class CourseFieldValue(models.Model):
     order = models.PositiveIntegerField(default=0)
     active = models.BooleanField(default=True,help_text='Show this field on this course’s public page.')
     value = models.TextField(help_text='Plain text. Paragraphs and line breaks are preserved.')
-    source_url = models.URLField(blank=True,help_text='Optional official page, fee schedule or requirements link.')
+    source_url = models.URLField(max_length=500, blank=True,help_text='Optional official page, fee schedule or requirements link.')
     link_label = models.CharField(max_length=160,blank=True)
 
     class Meta:

@@ -9,12 +9,26 @@ python manage.py import_verified_courses
 python manage.py createsuperuser
 ```
 
+For a repeatable catalog refresh, run the versioned sync command against the
+same `DATABASE_URL` used by the deployed service:
+
+```bash
+python manage.py sync_course_catalog
+python manage.py audit_course_catalog
+```
+
+The sync creates or updates the seeded universities and the verified course
+catalog without deleting records. Use `--deactivate-stale` only when the
+source file is intentionally the complete public catalog. The audit reports
+missing requirements, malformed links, missing review dates and broken
+university/department relationships before a release is considered ready.
+
 `seed_content` is safe to run again. It creates the regions, universities, pages, articles, FAQs, settings and verified University of Padua courses used by the local database. `import_verified_courses` bulk-loads the source-audited Italy catalogue from `platform_app/data/italy_courses.json`; it publishes only records marked verified and leaves pending rows unpublished. Existing admin edits are preserved by the initial import workflow.
 
 For a Render web service, use a release/start command that runs migrations and seeding before Gunicorn starts, for example:
 
 ```bash
-python manage.py migrate && python manage.py seed_content && gunicorn config.wsgi:application --chdir backend
+python manage.py migrate && python manage.py sync_course_catalog && python manage.py audit_course_catalog --strict && gunicorn config.wsgi:application --chdir backend
 ```
 
 Keep dependency installation and static collection in Render's **Build Command**, not its Start Command:
